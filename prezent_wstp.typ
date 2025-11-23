@@ -7,6 +7,7 @@
 #set text(size:25pt,lang:"pl")
 #set align(alignment.horizon)
 #set align(alignment.center)
+#set par(justify: true)
 
 = Gołębie na godzinę (tytuł tymczasowy)
 
