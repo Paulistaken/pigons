@@ -27,17 +27,17 @@
 == Skład zespołu
 #let role(a) = text(fill: luma(40%))[#a]
 
-- Piotr Kucia #role([Ui, implementacja wizualizacji danych.])
-- Paweł skrzypczyk #role([Backend, implentacja algorytmów, Prace nad symulacją.])
+- Piotr Kucia #role([UI, implementacja wizualizacji danych.])
+- Paweł Skrzypczyk #role([Backend, implementacja algorytmów, Prace nad symulacją.])
 - Patryk Kuszyński #role([UI, Projekt kamery, przesył danych.])
 
 == Cele i założenia projektu:
 
-Celem projektu jest swtorzenie systemu umożliwiającego optymalizację komunikacji miejskich. Jego zadaniem będzie zbieranie i analizowanie danych o ruchu pasażerów na poszczególnych przystankach.
+Celem projektu jest stworzenie systemu umożliwiającego optymalizację komunikacji miejskich. Jego zadaniem będzie zbieranie i analizowanie danych o ruchu pasażerów na poszczególnych przystankach.
 
-Aby to osiągnąć system będzie przechwytywać obraz z kamery i analizować go pod kątem liczby pasażerów czekających na przystankach w zależności od godziny i rozkładu jazd.
+Aby to osiągnąć system będzie przechwytywać obraz z kamery i analizować go pod kątem liczby pasażerów czekających na przystankach w zależności od godziny i rozkładu jazdy.
 
-Zebrane dane umożliwią stworzenie modeli predykcyjnych pozwalających na optymalizację rozkładów poszczególnych lini.
+Zebrane dane umożliwią stworzenie modeli predykcyjnych pozwalających na optymalizację rozkładów poszczególnych linii.
 
 Dzięki przejrzystej wizualizacji danych możliwe będzie dostrzegnięcie odpowiednich wzorców gołym okiem. 
 
@@ -53,17 +53,17 @@ W przypadku problemów z uzyskaniem zgody na nagrywanie przystanków, kamera uch
 == Część analityczna
 
 Analiza danych będzie opierała się na algorytmach sztucznej inteligencji działających w np. PyTorch.
-Ich zadaniem będzie wyciągniecie z obrazu danych takich jak liczba osób / nadjeżdzające autobusy oraz predykcją na podstawie tych danych ilości przyszłych pasażerów na przystanku.
+Ich zadaniem będzie wyciągniecie z obrazu danych takich jak liczba osób / nadjeżdżające autobusy oraz predykcja na podstawie tych danych ilości przyszłych pasażerów na przystanku.
 
 == Wizualizacja danych
 
 + Podgląd na żywo z kamery (kiedy kamera jest online).
 + Panel danych analitycznych:
-  - Średnia ilość osób na godzine, pokazana na wykresie.
+  - Średnia ilość osób na godzinę, pokazana na wykresie.
   - Przewidywana ilość osób w określonych godzinach, również na wykresie.
-  - Sukcess predykcji dla określonych godzin.
+  - Sukces predykcji dla określonych godzin.
 + Panel logów analitycznych.
-  - Sygnały sytemowe.
+  - Sygnały systemowe.
   - Komunikaty o działaniach podejmowanych przez system.
 
 #pagebreak()
