@@ -28,8 +28,8 @@
 #let role(a) = text(fill: luma(40%))[#a]
 
 - Priotr Kucia #role([Ui, implementacja wizualizacji danych.])
-- ... #role([Backend, implentacja algorytmów.])
-- ... #role([Prace nad kamerą, symulacją, przesyłem danych])
+- Paweł skrzypczyk #role([Backend, implentacja algorytmów, Prace nad symulacją.])
+- Patryk Kuszyński #role([UI, Projekt kamery, przesył danych.])
 
 == Cele i założenia projektu:
 
@@ -65,6 +65,14 @@ Ich zadaniem będzie wyciągniecie z obrazu danych takich jak liczba osób / nad
 + Panel logów analitycznych.
   - Sygnały sytemowe.
   - Komunikaty o działaniach podejmowanych przez system.
+
+#pagebreak()
+
+#align(alignment.center)[
+#stack(dir: ltr, spacing:10%,
+    stack(dir:ttb,spacing:10%,image("./Diagram1.png",width: 50%),role([Źródła wizualizowanych danych])), 
+    stack(dir:ttb,spacing:10%,image("./Wizualizacja1.png",width: 50%),role([Szkielet UI])))
+]
 
 #pagebreak()
 
