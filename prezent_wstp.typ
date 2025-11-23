@@ -27,7 +27,7 @@
 == Skład zespołu
 #let role(a) = text(fill: luma(40%))[#a]
 
-- Priotr Kucia #role([Ui, implementacja wizualizacji danych.])
+- Piotr Kucia #role([Ui, implementacja wizualizacji danych.])
 - Paweł skrzypczyk #role([Backend, implentacja algorytmów, Prace nad symulacją.])
 - Patryk Kuszyński #role([UI, Projekt kamery, przesył danych.])
 
