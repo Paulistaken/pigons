@@ -1,0 +1,51 @@
+date_of_event:
+  year: 2025
+  month: 12
+  day: 9
+time_of_event:
+  hour: 10
+  minute: 32
+id_of_the_bus:
+  id_number: 501
+id_of_the_station:
+  id_number: 19
+pasangers_coming_in: 8
+pasangers_coming_out: 25
+previous_stations: [6]:
+  - id_of_the_bus: id_number: 501
+    id_of_the_station: id_number: 16
+    time_of_event: hour: 10
+minute: 5
+  - id_of_the_bus: id_number: 501
+    id_of_the_station: id_number: 12
+    time_of_event: hour: 9
+minute: 55
+  - id_of_the_bus: id_number: 501
+    id_of_the_station: id_number: 43
+    time_of_event: hour: 9
+minute: 27
+  - id_of_the_bus: id_number: 501
+    id_of_the_station: id_number: 5
+    time_of_event: hour: 9
+minute: 1
+  - id_of_the_bus: id_number: 501
+    id_of_the_station: id_number: 22
+    time_of_event: hour: 8
+minute: 34
+  - id_of_the_bus: id_number: 501
+    id_of_the_station: id_number: 17
+    time_of_event: hour: 10
+minute: 27
+next_stations: [3]:
+  - id_of_the_bus: id_number: 501
+    id_of_the_station: id_number: 23
+    time_of_event: hour: 10
+minute: 54
+  - id_of_the_bus: id_number: 501
+    id_of_the_station: id_number: 17
+    time_of_event: hour: 11
+minute: 12
+  - id_of_the_bus: id_number: 501
+    id_of_the_station: id_number: 35
+    time_of_event: hour: 11
+minute: 48
