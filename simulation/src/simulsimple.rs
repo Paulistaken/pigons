@@ -25,7 +25,7 @@ pub struct SimulationInput {
 }
 
 pub fn run_symulacja() {
-    let siminput = std::fs::read_to_string("siminput.json").unwrap();
+    let siminput = std::fs::read_to_string("siminput.json").expect("Error, no siminput.json file");
     let mut simulinput: SimulationInput = serde_json::from_str(&siminput).unwrap();
     let mut newbbs = vec![];
     for busp in simulinput.bus_plans.iter_mut() {
@@ -46,39 +46,9 @@ pub fn run_symulacja() {
         newbbs.push(nbusp);
     }
     simulinput.bus_plans.append(&mut newbbs);
-    // let mut exampleinput = SimulationInput::default();
-    // exampleinput.bus_plans.push(SimuBusPlan {
-    //     busid: BusID::default(),
-    //     points: vec![
-    //         SimuStopPoint {
-    //             time: Time::default(),
-    //             staid: StaId::default(),
-    //         },
-    //         SimuStopPoint {
-    //             time: Time::default(),
-    //             staid: StaId::default(),
-    //         },
-    //     ],
-    // });
-    // exampleinput.bus_plans.push(SimuBusPlan {
-    //     busid: BusID::default(),
-    //     points: vec![
-    //         SimuStopPoint {
-    //             time: Time::default(),
-    //             staid: StaId::default(),
-    //         },
-    //         SimuStopPoint {
-    //             time: Time::default(),
-    //             staid: StaId::default(),
-    //         },
-    //         SimuStopPoint {
-    //             time: Time::default(),
-    //             staid: StaId::default(),
-    //         },
-    //     ],
-    // });
-    // let out = serde_json::to_string(&exampleinput).unwrap_or("".to_string());
-    // let _ = std::fs::write("siminput.json", &out);
+
+    let _ = std::fs::create_dir_all("simresults/pre/csv/pr");
+    let _ = std::fs::create_dir_all("simresults/pre/json/pr");
 
     let mut current_time: Time = simulinput.start_time;
     let mut current_date: Date = simulinput.start_date;
