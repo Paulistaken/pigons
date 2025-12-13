@@ -1,8 +1,10 @@
+pub mod simulsimple;
 use crate::dane_out::{BusEvent, Date, TDF};
 
 fn main() {
     test_create_output();
     println!("Hello, world!");
+    simulsimple::run_symulacja();
 }
 
 pub mod dane_symulacji {
@@ -128,7 +130,7 @@ pub mod dane_symulacji {
     struct IdPrzystanku {
         id: Entity,
     }
-    #[derive(Component, Copy, Clone, Debug)]
+    #[derive(Component, Copy, Clone, Debug, PartialEq, Eq, PartialOrd, Ord)]
     struct IdAutobusu {
         id: Entity,
     }
@@ -377,6 +379,11 @@ pub mod dane_out {
         Debug,
         Clone,
         Copy,
+        PartialEq,
+        Eq,
+        PartialOrd,
+        Ord,
+        Hash,
         serde_derive::Serialize,
         serde_derive::Deserialize,
         bevy_ecs::component::Component,
@@ -384,8 +391,8 @@ pub mod dane_out {
     pub struct BusId {
         pub id_number: u32,
     }
+    const MONTHS: [u32; 12] = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
     #[derive(
-        Default,
         Debug,
         Clone,
         Copy,
@@ -397,6 +404,28 @@ pub mod dane_out {
         pub year: u32,
         pub month: u32,
         pub day: u32,
+    }
+    impl Default for Date {
+        fn default() -> Self {
+            Self {
+                year: 2025,
+                month: 12,
+                day: 12,
+            }
+        }
+    }
+    impl Date {
+        pub fn next_day(&mut self) {
+            self.day += 1;
+            if self.day > MONTHS[(self.month - 1) as usize] {
+                self.day = 1;
+                self.month += 1;
+            }
+            if self.month > 12 {
+                self.month = 1;
+                self.year += 1;
+            }
+        }
     }
     #[derive(
         Default,
@@ -414,6 +443,19 @@ pub mod dane_out {
     pub struct Time {
         pub hour: u32,
         pub minute: u32,
+    }
+    impl Time {
+        pub fn next_minute(&mut self, date: Option<&mut Date>) {
+            self.minute += 1;
+            if self.minute >= 60 {
+                self.hour += 1;
+            }
+            if self.hour >= 12 {
+                if let Some(date) = date {
+                    date.next_day();
+                }
+            }
+        }
     }
 }
 fn test_create_output() {
