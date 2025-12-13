@@ -1,0 +1,3 @@
+./simulation/target
+./simulation/simresults/pre/csv/*
+./simulation/simresults/pre/json/*

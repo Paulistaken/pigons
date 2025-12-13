@@ -2,8 +2,8 @@ pub mod simulsimple;
 use crate::dane_out::{BusEvent, Date, TDF};
 
 fn main() {
-    test_create_output();
-    println!("Hello, world!");
+    // test_create_output();
+    // println!("Hello, world!");
     simulsimple::run_symulacja();
 }
 
