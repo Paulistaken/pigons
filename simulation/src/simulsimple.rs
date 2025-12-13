@@ -91,12 +91,15 @@ pub fn run_symulacja() {
     }
     planybus.sort_by(|(t1, _, _), (t2, _, _)| t1.cmp(t2));
 
-    let mut maxiter = 0_u32;
+    // let mut maxiter = 0_u32;
     loop {
-        maxiter += 1;
-        if maxiter > 100 {
+        if current_date.month != simulinput.start_date.month {
             return;
         }
+        // maxiter += 1;
+        // if maxiter > 100 {
+        //     return;
+        // }
         println!("Simulation: {:?} {:?}", current_time, current_date);
         let next_bus = planybus.iter().find(|(t, _, _)| *t >= current_time);
         if next_bus.is_none() {
