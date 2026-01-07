@@ -439,21 +439,43 @@ pub mod dane_out {
         serde_derive::Deserialize,
         bevy_ecs::component::Component,
         Eq,
-        Ord,
         PartialEq,
-        PartialOrd,
     )]
     pub struct Time {
         pub hour: u32,
         pub minute: u32,
+    }
+    impl PartialOrd for Time {
+        fn partial_cmp(&self, other: &Self) -> Option<std::cmp::Ordering> {
+            Some(self.cmp(other))
+        }
+    }
+    impl Ord for Time {
+        fn cmp(&self, other: &Self) -> std::cmp::Ordering {
+            if self.hour > other.hour {
+                std::cmp::Ordering::Greater
+            } else if self.hour == other.hour {
+                if self.minute > other.minute {
+                    std::cmp::Ordering::Greater
+                } else if self.minute == other.minute {
+                    std::cmp::Ordering::Equal
+                } else {
+                    std::cmp::Ordering::Less
+                }
+            } else {
+                std::cmp::Ordering::Less
+            }
+        }
     }
     impl Time {
         pub fn next_minute(&mut self, date: Option<&mut Date>) {
             self.minute += 1;
             if self.minute >= 60 {
                 self.hour += 1;
+                self.minute = 0;
             }
-            if self.hour >= 12 {
+            if self.hour >= 24 {
+                self.hour = 0;
                 if let Some(date) = date {
                     date.next_day();
                 }

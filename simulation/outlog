@@ -1,0 +1,2457 @@
+Simulation: Time { hour: 0, minute: 0 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:1
+ Passangers entering:12
+ Passangers leaving:0
+ Passangers in bus:12
+  Time { hour: 6, minute: 0 } | Time { hour: 6, minute: 0 }
+ Bus Id:2
+ Station Id:5
+ Passangers entering:13
+ Passangers leaving:0
+ Passangers in bus:13
+  Time { hour: 6, minute: 0 } | Time { hour: 6, minute: 0 }
+ Bus Id:3
+ Station Id:19
+ Passangers entering:6
+ Passangers leaving:0
+ Passangers in bus:6
+  Time { hour: 6, minute: 0 } | Time { hour: 6, minute: 0 }
+ Bus Id:4
+ Station Id:1
+ Passangers entering:12
+ Passangers leaving:0
+ Passangers in bus:12
+  Time { hour: 6, minute: 0 } | Time { hour: 6, minute: 0 }
+ Bus Id:5
+ Station Id:20
+ Passangers entering:11
+ Passangers leaving:0
+ Passangers in bus:11
+  Time { hour: 6, minute: 0 } | Time { hour: 6, minute: 0 }
+ Bus Id:6
+ Station Id:21
+ Passangers entering:14
+ Passangers leaving:0
+ Passangers in bus:14
+  Time { hour: 6, minute: 0 } | Time { hour: 6, minute: 0 }
+Simulation: Time { hour: 6, minute: 1 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:7
+ Passangers entering:14
+ Passangers leaving:1
+ Passangers in bus:26
+  Time { hour: 6, minute: 4 } | Time { hour: 6, minute: 4 }
+Simulation: Time { hour: 6, minute: 5 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:2
+ Passangers entering:13
+ Passangers leaving:5
+ Passangers in bus:20
+  Time { hour: 6, minute: 5 } | Time { hour: 6, minute: 5 }
+ Bus Id:4
+ Station Id:19
+ Passangers entering:11
+ Passangers leaving:1
+ Passangers in bus:22
+  Time { hour: 6, minute: 5 } | Time { hour: 6, minute: 5 }
+Simulation: Time { hour: 6, minute: 6 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:6
+ Station Id:4
+ Passangers entering:16
+ Passangers leaving:2
+ Passangers in bus:28
+  Time { hour: 6, minute: 6 } | Time { hour: 6, minute: 6 }
+Simulation: Time { hour: 6, minute: 7 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:5
+ Station Id:8
+ Passangers entering:13
+ Passangers leaving:2
+ Passangers in bus:22
+  Time { hour: 6, minute: 8 } | Time { hour: 6, minute: 8 }
+Simulation: Time { hour: 6, minute: 9 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:8
+ Passangers entering:14
+ Passangers leaving:7
+ Passangers in bus:33
+  Time { hour: 6, minute: 9 } | Time { hour: 6, minute: 9 }
+ Bus Id:4
+ Station Id:15
+ Passangers entering:8
+ Passangers leaving:4
+ Passangers in bus:26
+  Time { hour: 6, minute: 9 } | Time { hour: 6, minute: 9 }
+Simulation: Time { hour: 6, minute: 10 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:3
+ Passangers entering:16
+ Passangers leaving:6
+ Passangers in bus:30
+  Time { hour: 6, minute: 11 } | Time { hour: 6, minute: 11 }
+ Bus Id:6
+ Station Id:12
+ Passangers entering:24
+ Passangers leaving:6
+ Passangers in bus:46
+  Time { hour: 6, minute: 11 } | Time { hour: 6, minute: 11 }
+Simulation: Time { hour: 6, minute: 12 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:3
+ Station Id:18
+ Passangers entering:6
+ Passangers leaving:0
+ Passangers in bus:12
+  Time { hour: 6, minute: 12 } | Time { hour: 6, minute: 12 }
+Simulation: Time { hour: 6, minute: 13 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:9
+ Passangers entering:8
+ Passangers leaving:8
+ Passangers in bus:33
+  Time { hour: 6, minute: 13 } | Time { hour: 6, minute: 13 }
+Simulation: Time { hour: 6, minute: 14 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:4
+ Station Id:13
+ Passangers entering:11
+ Passangers leaving:3
+ Passangers in bus:34
+  Time { hour: 6, minute: 14 } | Time { hour: 6, minute: 14 }
+ Bus Id:6
+ Station Id:17
+ Passangers entering:6
+ Passangers leaving:8
+ Passangers in bus:44
+  Time { hour: 6, minute: 14 } | Time { hour: 6, minute: 14 }
+Simulation: Time { hour: 6, minute: 15 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:4
+ Passangers entering:9
+ Passangers leaving:12
+ Passangers in bus:27
+  Time { hour: 6, minute: 18 } | Time { hour: 6, minute: 18 }
+ Bus Id:2
+ Station Id:10
+ Passangers entering:11
+ Passangers leaving:10
+ Passangers in bus:34
+  Time { hour: 6, minute: 18 } | Time { hour: 6, minute: 18 }
+ Bus Id:5
+ Station Id:15
+ Passangers entering:8
+ Passangers leaving:7
+ Passangers in bus:23
+  Time { hour: 6, minute: 18 } | Time { hour: 6, minute: 18 }
+Simulation: Time { hour: 6, minute: 19 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:4
+ Station Id:12
+ Passangers entering:10
+ Passangers leaving:15
+ Passangers in bus:29
+  Time { hour: 6, minute: 20 } | Time { hour: 6, minute: 20 }
+Simulation: Time { hour: 6, minute: 21 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:11
+ Passangers entering:12
+ Passangers leaving:14
+ Passangers in bus:32
+  Time { hour: 6, minute: 21 } | Time { hour: 6, minute: 21 }
+ Bus Id:6
+ Station Id:16
+ Passangers entering:12
+ Passangers leaving:16
+ Passangers in bus:40
+  Time { hour: 6, minute: 21 } | Time { hour: 6, minute: 21 }
+Simulation: Time { hour: 6, minute: 22 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:6
+ Station Id:14
+ Passangers entering:12
+ Passangers leaving:17
+ Passangers in bus:35
+  Time { hour: 6, minute: 24 } | Time { hour: 6, minute: 24 }
+Simulation: Time { hour: 6, minute: 25 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:5
+ Passangers entering:10
+ Passangers leaving:11
+ Passangers in bus:26
+  Time { hour: 6, minute: 25 } | Time { hour: 6, minute: 25 }
+Simulation: Time { hour: 6, minute: 26 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:3
+ Station Id:16
+ Passangers entering:10
+ Passangers leaving:5
+ Passangers in bus:17
+  Time { hour: 6, minute: 26 } | Time { hour: 6, minute: 26 }
+ Bus Id:4
+ Station Id:14
+ Passangers entering:11
+ Passangers leaving:8
+ Passangers in bus:32
+  Time { hour: 6, minute: 26 } | Time { hour: 6, minute: 26 }
+Simulation: Time { hour: 6, minute: 27 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:10
+ Passangers entering:16
+ Passangers leaving:3
+ Passangers in bus:45
+  Time { hour: 6, minute: 27 } | Time { hour: 6, minute: 27 }
+ Bus Id:5
+ Station Id:14
+ Passangers entering:11
+ Passangers leaving:9
+ Passangers in bus:25
+  Time { hour: 6, minute: 27 } | Time { hour: 6, minute: 27 }
+Simulation: Time { hour: 6, minute: 28 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:4
+ Passangers entering:14
+ Passangers leaving:4
+ Passangers in bus:36
+  Time { hour: 6, minute: 31 } | Time { hour: 6, minute: 31 }
+ Bus Id:3
+ Station Id:14
+ Passangers entering:12
+ Passangers leaving:9
+ Passangers in bus:20
+  Time { hour: 6, minute: 31 } | Time { hour: 6, minute: 31 }
+ Bus Id:4
+ Station Id:12
+ Passangers entering:12
+ Passangers leaving:1
+ Passangers in bus:43
+  Time { hour: 6, minute: 31 } | Time { hour: 6, minute: 31 }
+Simulation: Time { hour: 6, minute: 32 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:9
+ Passangers entering:16
+ Passangers leaving:8
+ Passangers in bus:53
+  Time { hour: 6, minute: 32 } | Time { hour: 6, minute: 32 }
+ Bus Id:6
+ Station Id:16
+ Passangers entering:10
+ Passangers leaving:0
+ Passangers in bus:45
+  Time { hour: 6, minute: 32 } | Time { hour: 6, minute: 32 }
+Simulation: Time { hour: 6, minute: 33 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:3
+ Passangers entering:10
+ Passangers leaving:5
+ Passangers in bus:41
+  Time { hour: 6, minute: 36 } | Time { hour: 6, minute: 36 }
+ Bus Id:3
+ Station Id:16
+ Passangers entering:12
+ Passangers leaving:5
+ Passangers in bus:27
+  Time { hour: 6, minute: 36 } | Time { hour: 6, minute: 36 }
+ Bus Id:6
+ Station Id:17
+ Passangers entering:8
+ Passangers leaving:7
+ Passangers in bus:46
+  Time { hour: 6, minute: 36 } | Time { hour: 6, minute: 36 }
+Simulation: Time { hour: 6, minute: 37 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:5
+ Station Id:15
+ Passangers entering:16
+ Passangers leaving:8
+ Passangers in bus:33
+  Time { hour: 6, minute: 37 } | Time { hour: 6, minute: 37 }
+Simulation: Time { hour: 6, minute: 38 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:8
+ Passangers entering:12
+ Passangers leaving:21
+ Passangers in bus:44
+  Time { hour: 6, minute: 38 } | Time { hour: 6, minute: 38 }
+ Bus Id:4
+ Station Id:13
+ Passangers entering:10
+ Passangers leaving:6
+ Passangers in bus:47
+  Time { hour: 6, minute: 38 } | Time { hour: 6, minute: 38 }
+Simulation: Time { hour: 6, minute: 39 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:2
+ Passangers entering:7
+ Passangers leaving:9
+ Passangers in bus:39
+  Time { hour: 6, minute: 41 } | Time { hour: 6, minute: 41 }
+ Bus Id:2
+ Station Id:7
+ Passangers entering:15
+ Passangers leaving:15
+ Passangers in bus:44
+  Time { hour: 6, minute: 41 } | Time { hour: 6, minute: 41 }
+ Bus Id:6
+ Station Id:12
+ Passangers entering:27
+ Passangers leaving:15
+ Passangers in bus:58
+  Time { hour: 6, minute: 41 } | Time { hour: 6, minute: 41 }
+Simulation: Time { hour: 6, minute: 42 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:4
+ Station Id:15
+ Passangers entering:16
+ Passangers leaving:15
+ Passangers in bus:48
+  Time { hour: 6, minute: 42 } | Time { hour: 6, minute: 42 }
+Simulation: Time { hour: 6, minute: 43 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:6
+ Station Id:4
+ Passangers entering:10
+ Passangers leaving:18
+ Passangers in bus:50
+  Time { hour: 6, minute: 45 } | Time { hour: 6, minute: 45 }
+Simulation: Time { hour: 6, minute: 46 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:3
+ Station Id:18
+ Passangers entering:6
+ Passangers leaving:13
+ Passangers in bus:20
+  Time { hour: 6, minute: 46 } | Time { hour: 6, minute: 46 }
+ Bus Id:5
+ Station Id:8
+ Passangers entering:14
+ Passangers leaving:12
+ Passangers in bus:35
+  Time { hour: 6, minute: 46 } | Time { hour: 6, minute: 46 }
+Simulation: Time { hour: 6, minute: 47 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:1
+ Passangers entering:16
+ Passangers leaving:18
+ Passangers in bus:37
+  Time { hour: 6, minute: 47 } | Time { hour: 6, minute: 47 }
+Simulation: Time { hour: 6, minute: 48 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:5
+ Passangers entering:16
+ Passangers leaving:13
+ Passangers in bus:47
+  Time { hour: 6, minute: 48 } | Time { hour: 6, minute: 48 }
+ Bus Id:4
+ Station Id:19
+ Passangers entering:11
+ Passangers leaving:17
+ Passangers in bus:42
+  Time { hour: 6, minute: 48 } | Time { hour: 6, minute: 48 }
+Simulation: Time { hour: 6, minute: 49 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:6
+ Station Id:21
+ Passangers entering:8
+ Passangers leaving:20
+ Passangers in bus:38
+  Time { hour: 6, minute: 52 } | Time { hour: 6, minute: 52 }
+Simulation: Time { hour: 6, minute: 53 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:4
+ Station Id:1
+ Passangers entering:7
+ Passangers leaving:13
+ Passangers in bus:36
+  Time { hour: 6, minute: 54 } | Time { hour: 6, minute: 54 }
+ Bus Id:5
+ Station Id:20
+ Passangers entering:9
+ Passangers leaving:21
+ Passangers in bus:23
+  Time { hour: 6, minute: 54 } | Time { hour: 6, minute: 54 }
+Simulation: Time { hour: 6, minute: 55 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:3
+ Station Id:19
+ Passangers entering:11
+ Passangers leaving:10
+ Passangers in bus:21
+  Time { hour: 6, minute: 58 } | Time { hour: 6, minute: 58 }
+Simulation: Time { hour: 6, minute: 59 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:1
+ Passangers entering:13
+ Passangers leaving:0
+ Passangers in bus:50
+  Time { hour: 7, minute: 0 } | Time { hour: 7, minute: 0 }
+ Bus Id:2
+ Station Id:5
+ Passangers entering:7
+ Passangers leaving:0
+ Passangers in bus:54
+  Time { hour: 7, minute: 0 } | Time { hour: 7, minute: 0 }
+ Bus Id:3
+ Station Id:19
+ Passangers entering:11
+ Passangers leaving:0
+ Passangers in bus:32
+  Time { hour: 7, minute: 0 } | Time { hour: 7, minute: 0 }
+ Bus Id:4
+ Station Id:1
+ Passangers entering:17
+ Passangers leaving:0
+ Passangers in bus:53
+  Time { hour: 7, minute: 0 } | Time { hour: 7, minute: 0 }
+ Bus Id:5
+ Station Id:20
+ Passangers entering:11
+ Passangers leaving:0
+ Passangers in bus:34
+  Time { hour: 7, minute: 0 } | Time { hour: 7, minute: 0 }
+ Bus Id:6
+ Station Id:21
+ Passangers entering:10
+ Passangers leaving:0
+ Passangers in bus:48
+  Time { hour: 7, minute: 0 } | Time { hour: 7, minute: 0 }
+Simulation: Time { hour: 7, minute: 1 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:7
+ Passangers entering:12
+ Passangers leaving:8
+ Passangers in bus:58
+  Time { hour: 7, minute: 4 } | Time { hour: 7, minute: 4 }
+Simulation: Time { hour: 7, minute: 5 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:2
+ Passangers entering:9
+ Passangers leaving:8
+ Passangers in bus:51
+  Time { hour: 7, minute: 5 } | Time { hour: 7, minute: 5 }
+ Bus Id:4
+ Station Id:19
+ Passangers entering:18
+ Passangers leaving:9
+ Passangers in bus:62
+  Time { hour: 7, minute: 5 } | Time { hour: 7, minute: 5 }
+Simulation: Time { hour: 7, minute: 6 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:6
+ Station Id:4
+ Passangers entering:25
+ Passangers leaving:5
+ Passangers in bus:68
+  Time { hour: 7, minute: 6 } | Time { hour: 7, minute: 6 }
+Simulation: Time { hour: 7, minute: 7 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:5
+ Station Id:8
+ Passangers entering:6
+ Passangers leaving:5
+ Passangers in bus:35
+  Time { hour: 7, minute: 8 } | Time { hour: 7, minute: 8 }
+Simulation: Time { hour: 7, minute: 9 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:8
+ Passangers entering:16
+ Passangers leaving:7
+ Passangers in bus:67
+  Time { hour: 7, minute: 9 } | Time { hour: 7, minute: 9 }
+ Bus Id:4
+ Station Id:15
+ Passangers entering:12
+ Passangers leaving:6
+ Passangers in bus:68
+  Time { hour: 7, minute: 9 } | Time { hour: 7, minute: 9 }
+Simulation: Time { hour: 7, minute: 10 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:3
+ Passangers entering:15
+ Passangers leaving:5
+ Passangers in bus:61
+  Time { hour: 7, minute: 11 } | Time { hour: 7, minute: 11 }
+ Bus Id:6
+ Station Id:12
+ Passangers entering:11
+ Passangers leaving:14
+ Passangers in bus:65
+  Time { hour: 7, minute: 11 } | Time { hour: 7, minute: 11 }
+Simulation: Time { hour: 7, minute: 12 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:3
+ Station Id:18
+ Passangers entering:12
+ Passangers leaving:12
+ Passangers in bus:32
+  Time { hour: 7, minute: 12 } | Time { hour: 7, minute: 12 }
+Simulation: Time { hour: 7, minute: 13 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:9
+ Passangers entering:16
+ Passangers leaving:20
+ Passangers in bus:63
+  Time { hour: 7, minute: 13 } | Time { hour: 7, minute: 13 }
+Simulation: Time { hour: 7, minute: 14 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:4
+ Station Id:13
+ Passangers entering:16
+ Passangers leaving:15
+ Passangers in bus:69
+  Time { hour: 7, minute: 14 } | Time { hour: 7, minute: 14 }
+ Bus Id:6
+ Station Id:17
+ Passangers entering:14
+ Passangers leaving:14
+ Passangers in bus:65
+  Time { hour: 7, minute: 14 } | Time { hour: 7, minute: 14 }
+Simulation: Time { hour: 7, minute: 15 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:4
+ Passangers entering:23
+ Passangers leaving:28
+ Passangers in bus:56
+  Time { hour: 7, minute: 18 } | Time { hour: 7, minute: 18 }
+ Bus Id:2
+ Station Id:10
+ Passangers entering:16
+ Passangers leaving:17
+ Passangers in bus:62
+  Time { hour: 7, minute: 18 } | Time { hour: 7, minute: 18 }
+ Bus Id:5
+ Station Id:15
+ Passangers entering:7
+ Passangers leaving:19
+ Passangers in bus:23
+  Time { hour: 7, minute: 18 } | Time { hour: 7, minute: 18 }
+Simulation: Time { hour: 7, minute: 19 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:4
+ Station Id:12
+ Passangers entering:26
+ Passangers leaving:23
+ Passangers in bus:72
+  Time { hour: 7, minute: 20 } | Time { hour: 7, minute: 20 }
+Simulation: Time { hour: 7, minute: 21 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:11
+ Passangers entering:8
+ Passangers leaving:28
+ Passangers in bus:42
+  Time { hour: 7, minute: 21 } | Time { hour: 7, minute: 21 }
+ Bus Id:6
+ Station Id:16
+ Passangers entering:12
+ Passangers leaving:20
+ Passangers in bus:57
+  Time { hour: 7, minute: 21 } | Time { hour: 7, minute: 21 }
+Simulation: Time { hour: 7, minute: 22 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:6
+ Station Id:14
+ Passangers entering:12
+ Passangers leaving:23
+ Passangers in bus:46
+  Time { hour: 7, minute: 24 } | Time { hour: 7, minute: 24 }
+Simulation: Time { hour: 7, minute: 25 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:5
+ Passangers entering:10
+ Passangers leaving:26
+ Passangers in bus:40
+  Time { hour: 7, minute: 25 } | Time { hour: 7, minute: 25 }
+Simulation: Time { hour: 7, minute: 26 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:3
+ Station Id:16
+ Passangers entering:10
+ Passangers leaving:9
+ Passangers in bus:33
+  Time { hour: 7, minute: 26 } | Time { hour: 7, minute: 26 }
+ Bus Id:4
+ Station Id:14
+ Passangers entering:8
+ Passangers leaving:31
+ Passangers in bus:49
+  Time { hour: 7, minute: 26 } | Time { hour: 7, minute: 26 }
+Simulation: Time { hour: 7, minute: 27 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:10
+ Passangers entering:16
+ Passangers leaving:2
+ Passangers in bus:56
+  Time { hour: 7, minute: 27 } | Time { hour: 7, minute: 27 }
+ Bus Id:5
+ Station Id:14
+ Passangers entering:8
+ Passangers leaving:17
+ Passangers in bus:14
+  Time { hour: 7, minute: 27 } | Time { hour: 7, minute: 27 }
+Simulation: Time { hour: 7, minute: 28 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:4
+ Passangers entering:19
+ Passangers leaving:2
+ Passangers in bus:57
+  Time { hour: 7, minute: 31 } | Time { hour: 7, minute: 31 }
+ Bus Id:3
+ Station Id:14
+ Passangers entering:6
+ Passangers leaving:18
+ Passangers in bus:21
+  Time { hour: 7, minute: 31 } | Time { hour: 7, minute: 31 }
+ Bus Id:4
+ Station Id:12
+ Passangers entering:19
+ Passangers leaving:5
+ Passangers in bus:63
+  Time { hour: 7, minute: 31 } | Time { hour: 7, minute: 31 }
+Simulation: Time { hour: 7, minute: 32 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:9
+ Passangers entering:10
+ Passangers leaving:5
+ Passangers in bus:61
+  Time { hour: 7, minute: 32 } | Time { hour: 7, minute: 32 }
+ Bus Id:6
+ Station Id:16
+ Passangers entering:12
+ Passangers leaving:3
+ Passangers in bus:55
+  Time { hour: 7, minute: 32 } | Time { hour: 7, minute: 32 }
+Simulation: Time { hour: 7, minute: 33 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:3
+ Passangers entering:11
+ Passangers leaving:12
+ Passangers in bus:56
+  Time { hour: 7, minute: 36 } | Time { hour: 7, minute: 36 }
+ Bus Id:3
+ Station Id:16
+ Passangers entering:15
+ Passangers leaving:1
+ Passangers in bus:35
+  Time { hour: 7, minute: 36 } | Time { hour: 7, minute: 36 }
+ Bus Id:6
+ Station Id:17
+ Passangers entering:16
+ Passangers leaving:7
+ Passangers in bus:64
+  Time { hour: 7, minute: 36 } | Time { hour: 7, minute: 36 }
+Simulation: Time { hour: 7, minute: 37 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:5
+ Station Id:15
+ Passangers entering:13
+ Passangers leaving:3
+ Passangers in bus:24
+  Time { hour: 7, minute: 37 } | Time { hour: 7, minute: 37 }
+Simulation: Time { hour: 7, minute: 38 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:8
+ Passangers entering:11
+ Passangers leaving:17
+ Passangers in bus:55
+  Time { hour: 7, minute: 38 } | Time { hour: 7, minute: 38 }
+ Bus Id:4
+ Station Id:13
+ Passangers entering:11
+ Passangers leaving:4
+ Passangers in bus:70
+  Time { hour: 7, minute: 38 } | Time { hour: 7, minute: 38 }
+Simulation: Time { hour: 7, minute: 39 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:2
+ Passangers entering:14
+ Passangers leaving:18
+ Passangers in bus:52
+  Time { hour: 7, minute: 41 } | Time { hour: 7, minute: 41 }
+ Bus Id:2
+ Station Id:7
+ Passangers entering:14
+ Passangers leaving:32
+ Passangers in bus:37
+  Time { hour: 7, minute: 41 } | Time { hour: 7, minute: 41 }
+ Bus Id:6
+ Station Id:12
+ Passangers entering:17
+ Passangers leaving:23
+ Passangers in bus:58
+  Time { hour: 7, minute: 41 } | Time { hour: 7, minute: 41 }
+Simulation: Time { hour: 7, minute: 42 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:4
+ Station Id:15
+ Passangers entering:14
+ Passangers leaving:9
+ Passangers in bus:75
+  Time { hour: 7, minute: 42 } | Time { hour: 7, minute: 42 }
+Simulation: Time { hour: 7, minute: 43 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:6
+ Station Id:4
+ Passangers entering:22
+ Passangers leaving:22
+ Passangers in bus:58
+  Time { hour: 7, minute: 45 } | Time { hour: 7, minute: 45 }
+Simulation: Time { hour: 7, minute: 46 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:3
+ Station Id:18
+ Passangers entering:8
+ Passangers leaving:14
+ Passangers in bus:29
+  Time { hour: 7, minute: 46 } | Time { hour: 7, minute: 46 }
+ Bus Id:5
+ Station Id:8
+ Passangers entering:14
+ Passangers leaving:12
+ Passangers in bus:26
+  Time { hour: 7, minute: 46 } | Time { hour: 7, minute: 46 }
+Simulation: Time { hour: 7, minute: 47 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:1
+ Passangers entering:22
+ Passangers leaving:36
+ Passangers in bus:38
+  Time { hour: 7, minute: 47 } | Time { hour: 7, minute: 47 }
+Simulation: Time { hour: 7, minute: 48 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:5
+ Passangers entering:8
+ Passangers leaving:16
+ Passangers in bus:29
+  Time { hour: 7, minute: 48 } | Time { hour: 7, minute: 48 }
+ Bus Id:4
+ Station Id:19
+ Passangers entering:14
+ Passangers leaving:27
+ Passangers in bus:62
+  Time { hour: 7, minute: 48 } | Time { hour: 7, minute: 48 }
+Simulation: Time { hour: 7, minute: 49 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:6
+ Station Id:21
+ Passangers entering:10
+ Passangers leaving:26
+ Passangers in bus:42
+  Time { hour: 7, minute: 52 } | Time { hour: 7, minute: 52 }
+Simulation: Time { hour: 7, minute: 53 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:4
+ Station Id:1
+ Passangers entering:20
+ Passangers leaving:37
+ Passangers in bus:45
+  Time { hour: 7, minute: 54 } | Time { hour: 7, minute: 54 }
+ Bus Id:5
+ Station Id:20
+ Passangers entering:15
+ Passangers leaving:9
+ Passangers in bus:32
+  Time { hour: 7, minute: 54 } | Time { hour: 7, minute: 54 }
+Simulation: Time { hour: 7, minute: 55 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:3
+ Station Id:19
+ Passangers entering:8
+ Passangers leaving:22
+ Passangers in bus:15
+  Time { hour: 7, minute: 58 } | Time { hour: 7, minute: 58 }
+Simulation: Time { hour: 7, minute: 59 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:1
+ Passangers entering:20
+ Passangers leaving:0
+ Passangers in bus:58
+  Time { hour: 8, minute: 0 } | Time { hour: 8, minute: 0 }
+ Bus Id:2
+ Station Id:5
+ Passangers entering:9
+ Passangers leaving:0
+ Passangers in bus:38
+  Time { hour: 8, minute: 0 } | Time { hour: 8, minute: 0 }
+ Bus Id:3
+ Station Id:19
+ Passangers entering:19
+ Passangers leaving:0
+ Passangers in bus:34
+  Time { hour: 8, minute: 0 } | Time { hour: 8, minute: 0 }
+ Bus Id:4
+ Station Id:1
+ Passangers entering:11
+ Passangers leaving:0
+ Passangers in bus:56
+  Time { hour: 8, minute: 0 } | Time { hour: 8, minute: 0 }
+ Bus Id:5
+ Station Id:20
+ Passangers entering:11
+ Passangers leaving:0
+ Passangers in bus:43
+  Time { hour: 8, minute: 0 } | Time { hour: 8, minute: 0 }
+ Bus Id:6
+ Station Id:21
+ Passangers entering:7
+ Passangers leaving:0
+ Passangers in bus:49
+  Time { hour: 8, minute: 0 } | Time { hour: 8, minute: 0 }
+Simulation: Time { hour: 8, minute: 1 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:7
+ Passangers entering:12
+ Passangers leaving:8
+ Passangers in bus:42
+  Time { hour: 8, minute: 4 } | Time { hour: 8, minute: 4 }
+Simulation: Time { hour: 8, minute: 5 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:2
+ Passangers entering:15
+ Passangers leaving:5
+ Passangers in bus:68
+  Time { hour: 8, minute: 5 } | Time { hour: 8, minute: 5 }
+ Bus Id:4
+ Station Id:19
+ Passangers entering:18
+ Passangers leaving:8
+ Passangers in bus:66
+  Time { hour: 8, minute: 5 } | Time { hour: 8, minute: 5 }
+Simulation: Time { hour: 8, minute: 6 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:6
+ Station Id:4
+ Passangers entering:9
+ Passangers leaving:3
+ Passangers in bus:55
+  Time { hour: 8, minute: 6 } | Time { hour: 8, minute: 6 }
+Simulation: Time { hour: 8, minute: 7 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:5
+ Station Id:8
+ Passangers entering:6
+ Passangers leaving:9
+ Passangers in bus:40
+  Time { hour: 8, minute: 8 } | Time { hour: 8, minute: 8 }
+Simulation: Time { hour: 8, minute: 9 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:8
+ Passangers entering:10
+ Passangers leaving:7
+ Passangers in bus:45
+  Time { hour: 8, minute: 9 } | Time { hour: 8, minute: 9 }
+ Bus Id:4
+ Station Id:15
+ Passangers entering:11
+ Passangers leaving:6
+ Passangers in bus:71
+  Time { hour: 8, minute: 9 } | Time { hour: 8, minute: 9 }
+Simulation: Time { hour: 8, minute: 10 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:3
+ Passangers entering:7
+ Passangers leaving:17
+ Passangers in bus:58
+  Time { hour: 8, minute: 11 } | Time { hour: 8, minute: 11 }
+ Bus Id:6
+ Station Id:12
+ Passangers entering:25
+ Passangers leaving:15
+ Passangers in bus:65
+  Time { hour: 8, minute: 11 } | Time { hour: 8, minute: 11 }
+Simulation: Time { hour: 8, minute: 12 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:3
+ Station Id:18
+ Passangers entering:12
+ Passangers leaving:11
+ Passangers in bus:35
+  Time { hour: 8, minute: 12 } | Time { hour: 8, minute: 12 }
+Simulation: Time { hour: 8, minute: 13 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:9
+ Passangers entering:11
+ Passangers leaving:13
+ Passangers in bus:43
+  Time { hour: 8, minute: 13 } | Time { hour: 8, minute: 13 }
+Simulation: Time { hour: 8, minute: 14 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:4
+ Station Id:13
+ Passangers entering:22
+ Passangers leaving:20
+ Passangers in bus:73
+  Time { hour: 8, minute: 14 } | Time { hour: 8, minute: 14 }
+ Bus Id:6
+ Station Id:17
+ Passangers entering:6
+ Passangers leaving:13
+ Passangers in bus:58
+  Time { hour: 8, minute: 14 } | Time { hour: 8, minute: 14 }
+Simulation: Time { hour: 8, minute: 15 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:4
+ Passangers entering:25
+ Passangers leaving:34
+ Passangers in bus:49
+  Time { hour: 8, minute: 18 } | Time { hour: 8, minute: 18 }
+ Bus Id:2
+ Station Id:10
+ Passangers entering:16
+ Passangers leaving:18
+ Passangers in bus:41
+  Time { hour: 8, minute: 18 } | Time { hour: 8, minute: 18 }
+ Bus Id:5
+ Station Id:15
+ Passangers entering:7
+ Passangers leaving:15
+ Passangers in bus:32
+  Time { hour: 8, minute: 18 } | Time { hour: 8, minute: 18 }
+Simulation: Time { hour: 8, minute: 19 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:4
+ Station Id:12
+ Passangers entering:22
+ Passangers leaving:30
+ Passangers in bus:65
+  Time { hour: 8, minute: 20 } | Time { hour: 8, minute: 20 }
+Simulation: Time { hour: 8, minute: 21 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:11
+ Passangers entering:16
+ Passangers leaving:16
+ Passangers in bus:41
+  Time { hour: 8, minute: 21 } | Time { hour: 8, minute: 21 }
+ Bus Id:6
+ Station Id:16
+ Passangers entering:10
+ Passangers leaving:24
+ Passangers in bus:44
+  Time { hour: 8, minute: 21 } | Time { hour: 8, minute: 21 }
+Simulation: Time { hour: 8, minute: 22 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:6
+ Station Id:14
+ Passangers entering:9
+ Passangers leaving:22
+ Passangers in bus:31
+  Time { hour: 8, minute: 24 } | Time { hour: 8, minute: 24 }
+Simulation: Time { hour: 8, minute: 25 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:5
+ Passangers entering:11
+ Passangers leaving:23
+ Passangers in bus:37
+  Time { hour: 8, minute: 25 } | Time { hour: 8, minute: 25 }
+Simulation: Time { hour: 8, minute: 26 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:3
+ Station Id:16
+ Passangers entering:6
+ Passangers leaving:15
+ Passangers in bus:26
+  Time { hour: 8, minute: 26 } | Time { hour: 8, minute: 26 }
+ Bus Id:4
+ Station Id:14
+ Passangers entering:9
+ Passangers leaving:25
+ Passangers in bus:49
+  Time { hour: 8, minute: 26 } | Time { hour: 8, minute: 26 }
+Simulation: Time { hour: 8, minute: 27 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:10
+ Passangers entering:11
+ Passangers leaving:4
+ Passangers in bus:48
+  Time { hour: 8, minute: 27 } | Time { hour: 8, minute: 27 }
+ Bus Id:5
+ Station Id:14
+ Passangers entering:10
+ Passangers leaving:25
+ Passangers in bus:17
+  Time { hour: 8, minute: 27 } | Time { hour: 8, minute: 27 }
+Simulation: Time { hour: 8, minute: 28 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:4
+ Passangers entering:14
+ Passangers leaving:3
+ Passangers in bus:48
+  Time { hour: 8, minute: 31 } | Time { hour: 8, minute: 31 }
+ Bus Id:3
+ Station Id:14
+ Passangers entering:12
+ Passangers leaving:16
+ Passangers in bus:22
+  Time { hour: 8, minute: 31 } | Time { hour: 8, minute: 31 }
+ Bus Id:4
+ Station Id:12
+ Passangers entering:14
+ Passangers leaving:3
+ Passangers in bus:60
+  Time { hour: 8, minute: 31 } | Time { hour: 8, minute: 31 }
+Simulation: Time { hour: 8, minute: 32 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:9
+ Passangers entering:6
+ Passangers leaving:10
+ Passangers in bus:44
+  Time { hour: 8, minute: 32 } | Time { hour: 8, minute: 32 }
+ Bus Id:6
+ Station Id:16
+ Passangers entering:10
+ Passangers leaving:0
+ Passangers in bus:41
+  Time { hour: 8, minute: 32 } | Time { hour: 8, minute: 32 }
+Simulation: Time { hour: 8, minute: 33 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:3
+ Passangers entering:8
+ Passangers leaving:13
+ Passangers in bus:43
+  Time { hour: 8, minute: 36 } | Time { hour: 8, minute: 36 }
+ Bus Id:3
+ Station Id:16
+ Passangers entering:14
+ Passangers leaving:4
+ Passangers in bus:32
+  Time { hour: 8, minute: 36 } | Time { hour: 8, minute: 36 }
+ Bus Id:6
+ Station Id:17
+ Passangers entering:6
+ Passangers leaving:5
+ Passangers in bus:42
+  Time { hour: 8, minute: 36 } | Time { hour: 8, minute: 36 }
+Simulation: Time { hour: 8, minute: 37 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:5
+ Station Id:15
+ Passangers entering:15
+ Passangers leaving:1
+ Passangers in bus:31
+  Time { hour: 8, minute: 37 } | Time { hour: 8, minute: 37 }
+Simulation: Time { hour: 8, minute: 38 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:8
+ Passangers entering:11
+ Passangers leaving:10
+ Passangers in bus:45
+  Time { hour: 8, minute: 38 } | Time { hour: 8, minute: 38 }
+ Bus Id:4
+ Station Id:13
+ Passangers entering:9
+ Passangers leaving:10
+ Passangers in bus:59
+  Time { hour: 8, minute: 38 } | Time { hour: 8, minute: 38 }
+Simulation: Time { hour: 8, minute: 39 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:2
+ Passangers entering:9
+ Passangers leaving:11
+ Passangers in bus:41
+  Time { hour: 8, minute: 41 } | Time { hour: 8, minute: 41 }
+ Bus Id:2
+ Station Id:7
+ Passangers entering:17
+ Passangers leaving:15
+ Passangers in bus:47
+  Time { hour: 8, minute: 41 } | Time { hour: 8, minute: 41 }
+ Bus Id:6
+ Station Id:12
+ Passangers entering:11
+ Passangers leaving:13
+ Passangers in bus:40
+  Time { hour: 8, minute: 41 } | Time { hour: 8, minute: 41 }
+Simulation: Time { hour: 8, minute: 42 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:4
+ Station Id:15
+ Passangers entering:10
+ Passangers leaving:11
+ Passangers in bus:58
+  Time { hour: 8, minute: 42 } | Time { hour: 8, minute: 42 }
+Simulation: Time { hour: 8, minute: 43 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:6
+ Station Id:4
+ Passangers entering:13
+ Passangers leaving:22
+ Passangers in bus:31
+  Time { hour: 8, minute: 45 } | Time { hour: 8, minute: 45 }
+Simulation: Time { hour: 8, minute: 46 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:3
+ Station Id:18
+ Passangers entering:13
+ Passangers leaving:14
+ Passangers in bus:31
+  Time { hour: 8, minute: 46 } | Time { hour: 8, minute: 46 }
+ Bus Id:5
+ Station Id:8
+ Passangers entering:15
+ Passangers leaving:14
+ Passangers in bus:32
+  Time { hour: 8, minute: 46 } | Time { hour: 8, minute: 46 }
+Simulation: Time { hour: 8, minute: 47 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:1
+ Passangers entering:21
+ Passangers leaving:29
+ Passangers in bus:33
+  Time { hour: 8, minute: 47 } | Time { hour: 8, minute: 47 }
+Simulation: Time { hour: 8, minute: 48 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:5
+ Passangers entering:12
+ Passangers leaving:23
+ Passangers in bus:36
+  Time { hour: 8, minute: 48 } | Time { hour: 8, minute: 48 }
+ Bus Id:4
+ Station Id:19
+ Passangers entering:20
+ Passangers leaving:18
+ Passangers in bus:60
+  Time { hour: 8, minute: 48 } | Time { hour: 8, minute: 48 }
+Simulation: Time { hour: 8, minute: 49 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:6
+ Station Id:21
+ Passangers entering:11
+ Passangers leaving:12
+ Passangers in bus:30
+  Time { hour: 8, minute: 52 } | Time { hour: 8, minute: 52 }
+Simulation: Time { hour: 8, minute: 53 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:4
+ Station Id:1
+ Passangers entering:11
+ Passangers leaving:31
+ Passangers in bus:40
+  Time { hour: 8, minute: 54 } | Time { hour: 8, minute: 54 }
+ Bus Id:5
+ Station Id:20
+ Passangers entering:14
+ Passangers leaving:17
+ Passangers in bus:29
+  Time { hour: 8, minute: 54 } | Time { hour: 8, minute: 54 }
+Simulation: Time { hour: 8, minute: 55 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:3
+ Station Id:19
+ Passangers entering:11
+ Passangers leaving:18
+ Passangers in bus:24
+  Time { hour: 8, minute: 58 } | Time { hour: 8, minute: 58 }
+Simulation: Time { hour: 8, minute: 59 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:1
+ Passangers entering:7
+ Passangers leaving:0
+ Passangers in bus:40
+  Time { hour: 9, minute: 0 } | Time { hour: 9, minute: 0 }
+ Bus Id:2
+ Station Id:5
+ Passangers entering:6
+ Passangers leaving:0
+ Passangers in bus:42
+  Time { hour: 9, minute: 0 } | Time { hour: 9, minute: 0 }
+ Bus Id:3
+ Station Id:19
+ Passangers entering:12
+ Passangers leaving:0
+ Passangers in bus:36
+  Time { hour: 9, minute: 0 } | Time { hour: 9, minute: 0 }
+ Bus Id:4
+ Station Id:1
+ Passangers entering:11
+ Passangers leaving:0
+ Passangers in bus:51
+  Time { hour: 9, minute: 0 } | Time { hour: 9, minute: 0 }
+ Bus Id:5
+ Station Id:20
+ Passangers entering:9
+ Passangers leaving:0
+ Passangers in bus:38
+  Time { hour: 9, minute: 0 } | Time { hour: 9, minute: 0 }
+ Bus Id:6
+ Station Id:21
+ Passangers entering:12
+ Passangers leaving:0
+ Passangers in bus:42
+  Time { hour: 9, minute: 0 } | Time { hour: 9, minute: 0 }
+Simulation: Time { hour: 9, minute: 1 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:7
+ Passangers entering:12
+ Passangers leaving:4
+ Passangers in bus:50
+  Time { hour: 9, minute: 4 } | Time { hour: 9, minute: 4 }
+Simulation: Time { hour: 9, minute: 5 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:2
+ Passangers entering:15
+ Passangers leaving:8
+ Passangers in bus:47
+  Time { hour: 9, minute: 5 } | Time { hour: 9, minute: 5 }
+ Bus Id:4
+ Station Id:19
+ Passangers entering:9
+ Passangers leaving:2
+ Passangers in bus:58
+  Time { hour: 9, minute: 5 } | Time { hour: 9, minute: 5 }
+Simulation: Time { hour: 9, minute: 6 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:6
+ Station Id:4
+ Passangers entering:7
+ Passangers leaving:3
+ Passangers in bus:46
+  Time { hour: 9, minute: 6 } | Time { hour: 9, minute: 6 }
+Simulation: Time { hour: 9, minute: 7 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:5
+ Station Id:8
+ Passangers entering:11
+ Passangers leaving:7
+ Passangers in bus:42
+  Time { hour: 9, minute: 8 } | Time { hour: 9, minute: 8 }
+Simulation: Time { hour: 9, minute: 9 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:8
+ Passangers entering:12
+ Passangers leaving:7
+ Passangers in bus:55
+  Time { hour: 9, minute: 9 } | Time { hour: 9, minute: 9 }
+ Bus Id:4
+ Station Id:15
+ Passangers entering:11
+ Passangers leaving:8
+ Passangers in bus:61
+  Time { hour: 9, minute: 9 } | Time { hour: 9, minute: 9 }
+Simulation: Time { hour: 9, minute: 10 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:3
+ Passangers entering:7
+ Passangers leaving:13
+ Passangers in bus:41
+  Time { hour: 9, minute: 11 } | Time { hour: 9, minute: 11 }
+ Bus Id:6
+ Station Id:12
+ Passangers entering:24
+ Passangers leaving:9
+ Passangers in bus:61
+  Time { hour: 9, minute: 11 } | Time { hour: 9, minute: 11 }
+Simulation: Time { hour: 9, minute: 12 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:3
+ Station Id:18
+ Passangers entering:13
+ Passangers leaving:9
+ Passangers in bus:40
+  Time { hour: 9, minute: 12 } | Time { hour: 9, minute: 12 }
+Simulation: Time { hour: 9, minute: 13 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:9
+ Passangers entering:6
+ Passangers leaving:16
+ Passangers in bus:45
+  Time { hour: 9, minute: 13 } | Time { hour: 9, minute: 13 }
+Simulation: Time { hour: 9, minute: 14 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:4
+ Station Id:13
+ Passangers entering:8
+ Passangers leaving:13
+ Passangers in bus:56
+  Time { hour: 9, minute: 14 } | Time { hour: 9, minute: 14 }
+ Bus Id:6
+ Station Id:17
+ Passangers entering:8
+ Passangers leaving:16
+ Passangers in bus:53
+  Time { hour: 9, minute: 14 } | Time { hour: 9, minute: 14 }
+Simulation: Time { hour: 9, minute: 15 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:4
+ Passangers entering:15
+ Passangers leaving:19
+ Passangers in bus:37
+  Time { hour: 9, minute: 18 } | Time { hour: 9, minute: 18 }
+ Bus Id:2
+ Station Id:10
+ Passangers entering:8
+ Passangers leaving:12
+ Passangers in bus:41
+  Time { hour: 9, minute: 18 } | Time { hour: 9, minute: 18 }
+ Bus Id:5
+ Station Id:15
+ Passangers entering:10
+ Passangers leaving:15
+ Passangers in bus:37
+  Time { hour: 9, minute: 18 } | Time { hour: 9, minute: 18 }
+Simulation: Time { hour: 9, minute: 19 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:4
+ Station Id:12
+ Passangers entering:25
+ Passangers leaving:29
+ Passangers in bus:52
+  Time { hour: 9, minute: 20 } | Time { hour: 9, minute: 20 }
+Simulation: Time { hour: 9, minute: 21 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:11
+ Passangers entering:10
+ Passangers leaving:24
+ Passangers in bus:27
+  Time { hour: 9, minute: 21 } | Time { hour: 9, minute: 21 }
+ Bus Id:6
+ Station Id:16
+ Passangers entering:11
+ Passangers leaving:20
+ Passangers in bus:44
+  Time { hour: 9, minute: 21 } | Time { hour: 9, minute: 21 }
+Simulation: Time { hour: 9, minute: 22 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:6
+ Station Id:14
+ Passangers entering:6
+ Passangers leaving:17
+ Passangers in bus:33
+  Time { hour: 9, minute: 24 } | Time { hour: 9, minute: 24 }
+Simulation: Time { hour: 9, minute: 25 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:5
+ Passangers entering:15
+ Passangers leaving:17
+ Passangers in bus:35
+  Time { hour: 9, minute: 25 } | Time { hour: 9, minute: 25 }
+Simulation: Time { hour: 9, minute: 26 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:3
+ Station Id:16
+ Passangers entering:7
+ Passangers leaving:17
+ Passangers in bus:30
+  Time { hour: 9, minute: 26 } | Time { hour: 9, minute: 26 }
+ Bus Id:4
+ Station Id:14
+ Passangers entering:6
+ Passangers leaving:24
+ Passangers in bus:34
+  Time { hour: 9, minute: 26 } | Time { hour: 9, minute: 26 }
+Simulation: Time { hour: 9, minute: 27 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:10
+ Passangers entering:8
+ Passangers leaving:2
+ Passangers in bus:33
+  Time { hour: 9, minute: 27 } | Time { hour: 9, minute: 27 }
+ Bus Id:5
+ Station Id:14
+ Passangers entering:15
+ Passangers leaving:27
+ Passangers in bus:25
+  Time { hour: 9, minute: 27 } | Time { hour: 9, minute: 27 }
+Simulation: Time { hour: 9, minute: 28 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:4
+ Passangers entering:7
+ Passangers leaving:6
+ Passangers in bus:36
+  Time { hour: 9, minute: 31 } | Time { hour: 9, minute: 31 }
+ Bus Id:3
+ Station Id:14
+ Passangers entering:7
+ Passangers leaving:23
+ Passangers in bus:14
+  Time { hour: 9, minute: 31 } | Time { hour: 9, minute: 31 }
+ Bus Id:4
+ Station Id:12
+ Passangers entering:17
+ Passangers leaving:2
+ Passangers in bus:49
+  Time { hour: 9, minute: 31 } | Time { hour: 9, minute: 31 }
+Simulation: Time { hour: 9, minute: 32 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:9
+ Passangers entering:16
+ Passangers leaving:6
+ Passangers in bus:43
+  Time { hour: 9, minute: 32 } | Time { hour: 9, minute: 32 }
+ Bus Id:6
+ Station Id:16
+ Passangers entering:13
+ Passangers leaving:1
+ Passangers in bus:45
+  Time { hour: 9, minute: 32 } | Time { hour: 9, minute: 32 }
+Simulation: Time { hour: 9, minute: 33 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:3
+ Passangers entering:15
+ Passangers leaving:7
+ Passangers in bus:44
+  Time { hour: 9, minute: 36 } | Time { hour: 9, minute: 36 }
+ Bus Id:3
+ Station Id:16
+ Passangers entering:6
+ Passangers leaving:4
+ Passangers in bus:16
+  Time { hour: 9, minute: 36 } | Time { hour: 9, minute: 36 }
+ Bus Id:6
+ Station Id:17
+ Passangers entering:6
+ Passangers leaving:7
+ Passangers in bus:44
+  Time { hour: 9, minute: 36 } | Time { hour: 9, minute: 36 }
+Simulation: Time { hour: 9, minute: 37 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:5
+ Station Id:15
+ Passangers entering:7
+ Passangers leaving:4
+ Passangers in bus:28
+  Time { hour: 9, minute: 37 } | Time { hour: 9, minute: 37 }
+Simulation: Time { hour: 9, minute: 38 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:8
+ Passangers entering:15
+ Passangers leaving:8
+ Passangers in bus:50
+  Time { hour: 9, minute: 38 } | Time { hour: 9, minute: 38 }
+ Bus Id:4
+ Station Id:13
+ Passangers entering:12
+ Passangers leaving:12
+ Passangers in bus:49
+  Time { hour: 9, minute: 38 } | Time { hour: 9, minute: 38 }
+Simulation: Time { hour: 9, minute: 39 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:2
+ Passangers entering:15
+ Passangers leaving:18
+ Passangers in bus:41
+  Time { hour: 9, minute: 41 } | Time { hour: 9, minute: 41 }
+ Bus Id:2
+ Station Id:7
+ Passangers entering:9
+ Passangers leaving:15
+ Passangers in bus:44
+  Time { hour: 9, minute: 41 } | Time { hour: 9, minute: 41 }
+ Bus Id:6
+ Station Id:12
+ Passangers entering:16
+ Passangers leaving:12
+ Passangers in bus:48
+  Time { hour: 9, minute: 41 } | Time { hour: 9, minute: 41 }
+Simulation: Time { hour: 9, minute: 42 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:4
+ Station Id:15
+ Passangers entering:11
+ Passangers leaving:11
+ Passangers in bus:49
+  Time { hour: 9, minute: 42 } | Time { hour: 9, minute: 42 }
+Simulation: Time { hour: 9, minute: 43 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:6
+ Station Id:4
+ Passangers entering:7
+ Passangers leaving:15
+ Passangers in bus:40
+  Time { hour: 9, minute: 45 } | Time { hour: 9, minute: 45 }
+Simulation: Time { hour: 9, minute: 46 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:3
+ Station Id:18
+ Passangers entering:9
+ Passangers leaving:9
+ Passangers in bus:16
+  Time { hour: 9, minute: 46 } | Time { hour: 9, minute: 46 }
+ Bus Id:5
+ Station Id:8
+ Passangers entering:6
+ Passangers leaving:13
+ Passangers in bus:21
+  Time { hour: 9, minute: 46 } | Time { hour: 9, minute: 46 }
+Simulation: Time { hour: 9, minute: 47 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:1
+ Passangers entering:10
+ Passangers leaving:22
+ Passangers in bus:29
+  Time { hour: 9, minute: 47 } | Time { hour: 9, minute: 47 }
+Simulation: Time { hour: 9, minute: 48 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:5
+ Passangers entering:12
+ Passangers leaving:20
+ Passangers in bus:36
+  Time { hour: 9, minute: 48 } | Time { hour: 9, minute: 48 }
+ Bus Id:4
+ Station Id:19
+ Passangers entering:13
+ Passangers leaving:16
+ Passangers in bus:46
+  Time { hour: 9, minute: 48 } | Time { hour: 9, minute: 48 }
+Simulation: Time { hour: 9, minute: 49 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:6
+ Station Id:21
+ Passangers entering:11
+ Passangers leaving:22
+ Passangers in bus:29
+  Time { hour: 9, minute: 52 } | Time { hour: 9, minute: 52 }
+Simulation: Time { hour: 9, minute: 53 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:4
+ Station Id:1
+ Passangers entering:14
+ Passangers leaving:22
+ Passangers in bus:38
+  Time { hour: 9, minute: 54 } | Time { hour: 9, minute: 54 }
+ Bus Id:5
+ Station Id:20
+ Passangers entering:10
+ Passangers leaving:15
+ Passangers in bus:16
+  Time { hour: 9, minute: 54 } | Time { hour: 9, minute: 54 }
+Simulation: Time { hour: 9, minute: 55 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:3
+ Station Id:19
+ Passangers entering:12
+ Passangers leaving:9
+ Passangers in bus:19
+  Time { hour: 9, minute: 58 } | Time { hour: 9, minute: 58 }
+Simulation: Time { hour: 9, minute: 59 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:1
+ Passangers entering:15
+ Passangers leaving:0
+ Passangers in bus:44
+  Time { hour: 10, minute: 0 } | Time { hour: 10, minute: 0 }
+ Bus Id:2
+ Station Id:5
+ Passangers entering:15
+ Passangers leaving:0
+ Passangers in bus:51
+  Time { hour: 10, minute: 0 } | Time { hour: 10, minute: 0 }
+ Bus Id:3
+ Station Id:19
+ Passangers entering:10
+ Passangers leaving:0
+ Passangers in bus:29
+  Time { hour: 10, minute: 0 } | Time { hour: 10, minute: 0 }
+ Bus Id:4
+ Station Id:1
+ Passangers entering:9
+ Passangers leaving:0
+ Passangers in bus:47
+  Time { hour: 10, minute: 0 } | Time { hour: 10, minute: 0 }
+ Bus Id:5
+ Station Id:20
+ Passangers entering:9
+ Passangers leaving:0
+ Passangers in bus:25
+  Time { hour: 10, minute: 0 } | Time { hour: 10, minute: 0 }
+ Bus Id:6
+ Station Id:21
+ Passangers entering:12
+ Passangers leaving:0
+ Passangers in bus:41
+  Time { hour: 10, minute: 0 } | Time { hour: 10, minute: 0 }
+Simulation: Time { hour: 10, minute: 1 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:7
+ Passangers entering:13
+ Passangers leaving:5
+ Passangers in bus:59
+  Time { hour: 10, minute: 4 } | Time { hour: 10, minute: 4 }
+Simulation: Time { hour: 10, minute: 5 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:2
+ Passangers entering:10
+ Passangers leaving:7
+ Passangers in bus:47
+  Time { hour: 10, minute: 5 } | Time { hour: 10, minute: 5 }
+ Bus Id:4
+ Station Id:19
+ Passangers entering:9
+ Passangers leaving:6
+ Passangers in bus:50
+  Time { hour: 10, minute: 5 } | Time { hour: 10, minute: 5 }
+Simulation: Time { hour: 10, minute: 6 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:6
+ Station Id:4
+ Passangers entering:9
+ Passangers leaving:7
+ Passangers in bus:43
+  Time { hour: 10, minute: 6 } | Time { hour: 10, minute: 6 }
+Simulation: Time { hour: 10, minute: 7 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:5
+ Station Id:8
+ Passangers entering:6
+ Passangers leaving:6
+ Passangers in bus:25
+  Time { hour: 10, minute: 8 } | Time { hour: 10, minute: 8 }
+Simulation: Time { hour: 10, minute: 9 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:8
+ Passangers entering:11
+ Passangers leaving:9
+ Passangers in bus:61
+  Time { hour: 10, minute: 9 } | Time { hour: 10, minute: 9 }
+ Bus Id:4
+ Station Id:15
+ Passangers entering:15
+ Passangers leaving:9
+ Passangers in bus:56
+  Time { hour: 10, minute: 9 } | Time { hour: 10, minute: 9 }
+Simulation: Time { hour: 10, minute: 10 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:3
+ Passangers entering:14
+ Passangers leaving:16
+ Passangers in bus:45
+  Time { hour: 10, minute: 11 } | Time { hour: 10, minute: 11 }
+ Bus Id:6
+ Station Id:12
+ Passangers entering:18
+ Passangers leaving:8
+ Passangers in bus:53
+  Time { hour: 10, minute: 11 } | Time { hour: 10, minute: 11 }
+Simulation: Time { hour: 10, minute: 12 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:3
+ Station Id:18
+ Passangers entering:9
+ Passangers leaving:6
+ Passangers in bus:32
+  Time { hour: 10, minute: 12 } | Time { hour: 10, minute: 12 }
+Simulation: Time { hour: 10, minute: 13 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:9
+ Passangers entering:9
+ Passangers leaving:15
+ Passangers in bus:55
+  Time { hour: 10, minute: 13 } | Time { hour: 10, minute: 13 }
+Simulation: Time { hour: 10, minute: 14 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:4
+ Station Id:13
+ Passangers entering:12
+ Passangers leaving:11
+ Passangers in bus:57
+  Time { hour: 10, minute: 14 } | Time { hour: 10, minute: 14 }
+ Bus Id:6
+ Station Id:17
+ Passangers entering:10
+ Passangers leaving:15
+ Passangers in bus:48
+  Time { hour: 10, minute: 14 } | Time { hour: 10, minute: 14 }
+Simulation: Time { hour: 10, minute: 15 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:4
+ Passangers entering:16
+ Passangers leaving:12
+ Passangers in bus:49
+  Time { hour: 10, minute: 18 } | Time { hour: 10, minute: 18 }
+ Bus Id:2
+ Station Id:10
+ Passangers entering:16
+ Passangers leaving:21
+ Passangers in bus:50
+  Time { hour: 10, minute: 18 } | Time { hour: 10, minute: 18 }
+ Bus Id:5
+ Station Id:15
+ Passangers entering:10
+ Passangers leaving:13
+ Passangers in bus:22
+  Time { hour: 10, minute: 18 } | Time { hour: 10, minute: 18 }
+Simulation: Time { hour: 10, minute: 19 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:4
+ Station Id:12
+ Passangers entering:11
+ Passangers leaving:29
+ Passangers in bus:39
+  Time { hour: 10, minute: 20 } | Time { hour: 10, minute: 20 }
+Simulation: Time { hour: 10, minute: 21 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:11
+ Passangers entering:9
+ Passangers leaving:25
+ Passangers in bus:34
+  Time { hour: 10, minute: 21 } | Time { hour: 10, minute: 21 }
+ Bus Id:6
+ Station Id:16
+ Passangers entering:16
+ Passangers leaving:17
+ Passangers in bus:47
+  Time { hour: 10, minute: 21 } | Time { hour: 10, minute: 21 }
+Simulation: Time { hour: 10, minute: 22 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:6
+ Station Id:14
+ Passangers entering:8
+ Passangers leaving:16
+ Passangers in bus:39
+  Time { hour: 10, minute: 24 } | Time { hour: 10, minute: 24 }
+Simulation: Time { hour: 10, minute: 25 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:5
+ Passangers entering:12
+ Passangers leaving:27
+ Passangers in bus:34
+  Time { hour: 10, minute: 25 } | Time { hour: 10, minute: 25 }
+Simulation: Time { hour: 10, minute: 26 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:3
+ Station Id:16
+ Passangers entering:14
+ Passangers leaving:12
+ Passangers in bus:34
+  Time { hour: 10, minute: 26 } | Time { hour: 10, minute: 26 }
+ Bus Id:4
+ Station Id:14
+ Passangers entering:12
+ Passangers leaving:17
+ Passangers in bus:34
+  Time { hour: 10, minute: 26 } | Time { hour: 10, minute: 26 }
+Simulation: Time { hour: 10, minute: 27 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:10
+ Passangers entering:8
+ Passangers leaving:3
+ Passangers in bus:39
+  Time { hour: 10, minute: 27 } | Time { hour: 10, minute: 27 }
+ Bus Id:5
+ Station Id:14
+ Passangers entering:7
+ Passangers leaving:12
+ Passangers in bus:17
+  Time { hour: 10, minute: 27 } | Time { hour: 10, minute: 27 }
+Simulation: Time { hour: 10, minute: 28 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:4
+ Passangers entering:8
+ Passangers leaving:0
+ Passangers in bus:42
+  Time { hour: 10, minute: 31 } | Time { hour: 10, minute: 31 }
+ Bus Id:3
+ Station Id:14
+ Passangers entering:10
+ Passangers leaving:24
+ Passangers in bus:20
+  Time { hour: 10, minute: 31 } | Time { hour: 10, minute: 31 }
+ Bus Id:4
+ Station Id:12
+ Passangers entering:27
+ Passangers leaving:5
+ Passangers in bus:56
+  Time { hour: 10, minute: 31 } | Time { hour: 10, minute: 31 }
+Simulation: Time { hour: 10, minute: 32 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:9
+ Passangers entering:15
+ Passangers leaving:5
+ Passangers in bus:49
+  Time { hour: 10, minute: 32 } | Time { hour: 10, minute: 32 }
+ Bus Id:6
+ Station Id:16
+ Passangers entering:13
+ Passangers leaving:2
+ Passangers in bus:50
+  Time { hour: 10, minute: 32 } | Time { hour: 10, minute: 32 }
+Simulation: Time { hour: 10, minute: 33 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:3
+ Passangers entering:7
+ Passangers leaving:11
+ Passangers in bus:38
+  Time { hour: 10, minute: 36 } | Time { hour: 10, minute: 36 }
+ Bus Id:3
+ Station Id:16
+ Passangers entering:8
+ Passangers leaving:4
+ Passangers in bus:24
+  Time { hour: 10, minute: 36 } | Time { hour: 10, minute: 36 }
+ Bus Id:6
+ Station Id:17
+ Passangers entering:15
+ Passangers leaving:5
+ Passangers in bus:60
+  Time { hour: 10, minute: 36 } | Time { hour: 10, minute: 36 }
+Simulation: Time { hour: 10, minute: 37 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:5
+ Station Id:15
+ Passangers entering:12
+ Passangers leaving:2
+ Passangers in bus:27
+  Time { hour: 10, minute: 37 } | Time { hour: 10, minute: 37 }
+Simulation: Time { hour: 10, minute: 38 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:8
+ Passangers entering:15
+ Passangers leaving:12
+ Passangers in bus:52
+  Time { hour: 10, minute: 38 } | Time { hour: 10, minute: 38 }
+ Bus Id:4
+ Station Id:13
+ Passangers entering:9
+ Passangers leaving:15
+ Passangers in bus:50
+  Time { hour: 10, minute: 38 } | Time { hour: 10, minute: 38 }
+Simulation: Time { hour: 10, minute: 39 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:2
+ Passangers entering:10
+ Passangers leaving:10
+ Passangers in bus:38
+  Time { hour: 10, minute: 41 } | Time { hour: 10, minute: 41 }
+ Bus Id:2
+ Station Id:7
+ Passangers entering:16
+ Passangers leaving:21
+ Passangers in bus:47
+  Time { hour: 10, minute: 41 } | Time { hour: 10, minute: 41 }
+ Bus Id:6
+ Station Id:12
+ Passangers entering:18
+ Passangers leaving:20
+ Passangers in bus:58
+  Time { hour: 10, minute: 41 } | Time { hour: 10, minute: 41 }
+Simulation: Time { hour: 10, minute: 42 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:4
+ Station Id:15
+ Passangers entering:11
+ Passangers leaving:10
+ Passangers in bus:51
+  Time { hour: 10, minute: 42 } | Time { hour: 10, minute: 42 }
+Simulation: Time { hour: 10, minute: 43 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:6
+ Station Id:4
+ Passangers entering:16
+ Passangers leaving:25
+ Passangers in bus:49
+  Time { hour: 10, minute: 45 } | Time { hour: 10, minute: 45 }
+Simulation: Time { hour: 10, minute: 46 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:3
+ Station Id:18
+ Passangers entering:14
+ Passangers leaving:8
+ Passangers in bus:30
+  Time { hour: 10, minute: 46 } | Time { hour: 10, minute: 46 }
+ Bus Id:5
+ Station Id:8
+ Passangers entering:12
+ Passangers leaving:6
+ Passangers in bus:33
+  Time { hour: 10, minute: 46 } | Time { hour: 10, minute: 46 }
+Simulation: Time { hour: 10, minute: 47 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:1
+ Passangers entering:14
+ Passangers leaving:29
+ Passangers in bus:23
+  Time { hour: 10, minute: 47 } | Time { hour: 10, minute: 47 }
+Simulation: Time { hour: 10, minute: 48 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:5
+ Passangers entering:13
+ Passangers leaving:25
+ Passangers in bus:35
+  Time { hour: 10, minute: 48 } | Time { hour: 10, minute: 48 }
+ Bus Id:4
+ Station Id:19
+ Passangers entering:13
+ Passangers leaving:18
+ Passangers in bus:46
+  Time { hour: 10, minute: 48 } | Time { hour: 10, minute: 48 }
+Simulation: Time { hour: 10, minute: 49 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:6
+ Station Id:21
+ Passangers entering:11
+ Passangers leaving:18
+ Passangers in bus:42
+  Time { hour: 10, minute: 52 } | Time { hour: 10, minute: 52 }
+Simulation: Time { hour: 10, minute: 53 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:4
+ Station Id:1
+ Passangers entering:12
+ Passangers leaving:25
+ Passangers in bus:33
+  Time { hour: 10, minute: 54 } | Time { hour: 10, minute: 54 }
+ Bus Id:5
+ Station Id:20
+ Passangers entering:8
+ Passangers leaving:19
+ Passangers in bus:22
+  Time { hour: 10, minute: 54 } | Time { hour: 10, minute: 54 }
+Simulation: Time { hour: 10, minute: 55 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:3
+ Station Id:19
+ Passangers entering:10
+ Passangers leaving:23
+ Passangers in bus:17
+  Time { hour: 10, minute: 58 } | Time { hour: 10, minute: 58 }
+Simulation: Time { hour: 10, minute: 59 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:1
+ Passangers entering:7
+ Passangers leaving:0
+ Passangers in bus:30
+  Time { hour: 11, minute: 0 } | Time { hour: 11, minute: 0 }
+ Bus Id:2
+ Station Id:5
+ Passangers entering:14
+ Passangers leaving:0
+ Passangers in bus:49
+  Time { hour: 11, minute: 0 } | Time { hour: 11, minute: 0 }
+ Bus Id:3
+ Station Id:19
+ Passangers entering:11
+ Passangers leaving:0
+ Passangers in bus:28
+  Time { hour: 11, minute: 0 } | Time { hour: 11, minute: 0 }
+ Bus Id:4
+ Station Id:1
+ Passangers entering:11
+ Passangers leaving:0
+ Passangers in bus:44
+  Time { hour: 11, minute: 0 } | Time { hour: 11, minute: 0 }
+ Bus Id:5
+ Station Id:20
+ Passangers entering:16
+ Passangers leaving:0
+ Passangers in bus:38
+  Time { hour: 11, minute: 0 } | Time { hour: 11, minute: 0 }
+ Bus Id:6
+ Station Id:21
+ Passangers entering:7
+ Passangers leaving:0
+ Passangers in bus:49
+  Time { hour: 11, minute: 0 } | Time { hour: 11, minute: 0 }
+Simulation: Time { hour: 11, minute: 1 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:7
+ Passangers entering:12
+ Passangers leaving:7
+ Passangers in bus:54
+  Time { hour: 11, minute: 4 } | Time { hour: 11, minute: 4 }
+Simulation: Time { hour: 11, minute: 5 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:2
+ Passangers entering:8
+ Passangers leaving:4
+ Passangers in bus:34
+  Time { hour: 11, minute: 5 } | Time { hour: 11, minute: 5 }
+ Bus Id:4
+ Station Id:19
+ Passangers entering:7
+ Passangers leaving:3
+ Passangers in bus:48
+  Time { hour: 11, minute: 5 } | Time { hour: 11, minute: 5 }
+Simulation: Time { hour: 11, minute: 6 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:6
+ Station Id:4
+ Passangers entering:8
+ Passangers leaving:0
+ Passangers in bus:57
+  Time { hour: 11, minute: 6 } | Time { hour: 11, minute: 6 }
+Simulation: Time { hour: 11, minute: 7 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:5
+ Station Id:8
+ Passangers entering:9
+ Passangers leaving:7
+ Passangers in bus:40
+  Time { hour: 11, minute: 8 } | Time { hour: 11, minute: 8 }
+Simulation: Time { hour: 11, minute: 9 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:8
+ Passangers entering:10
+ Passangers leaving:14
+ Passangers in bus:50
+  Time { hour: 11, minute: 9 } | Time { hour: 11, minute: 9 }
+ Bus Id:4
+ Station Id:15
+ Passangers entering:13
+ Passangers leaving:8
+ Passangers in bus:53
+  Time { hour: 11, minute: 9 } | Time { hour: 11, minute: 9 }
+Simulation: Time { hour: 11, minute: 10 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:3
+ Passangers entering:11
+ Passangers leaving:9
+ Passangers in bus:36
+  Time { hour: 11, minute: 11 } | Time { hour: 11, minute: 11 }
+ Bus Id:6
+ Station Id:12
+ Passangers entering:22
+ Passangers leaving:16
+ Passangers in bus:63
+  Time { hour: 11, minute: 11 } | Time { hour: 11, minute: 11 }
+Simulation: Time { hour: 11, minute: 12 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:3
+ Station Id:18
+ Passangers entering:9
+ Passangers leaving:6
+ Passangers in bus:31
+  Time { hour: 11, minute: 12 } | Time { hour: 11, minute: 12 }
+Simulation: Time { hour: 11, minute: 13 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:9
+ Passangers entering:13
+ Passangers leaving:11
+ Passangers in bus:52
+  Time { hour: 11, minute: 13 } | Time { hour: 11, minute: 13 }
+Simulation: Time { hour: 11, minute: 14 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:4
+ Station Id:13
+ Passangers entering:9
+ Passangers leaving:10
+ Passangers in bus:52
+  Time { hour: 11, minute: 14 } | Time { hour: 11, minute: 14 }
+ Bus Id:6
+ Station Id:17
+ Passangers entering:7
+ Passangers leaving:17
+ Passangers in bus:53
+  Time { hour: 11, minute: 14 } | Time { hour: 11, minute: 14 }
+Simulation: Time { hour: 11, minute: 15 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:4
+ Passangers entering:8
+ Passangers leaving:11
+ Passangers in bus:33
+  Time { hour: 11, minute: 18 } | Time { hour: 11, minute: 18 }
+ Bus Id:2
+ Station Id:10
+ Passangers entering:12
+ Passangers leaving:14
+ Passangers in bus:50
+  Time { hour: 11, minute: 18 } | Time { hour: 11, minute: 18 }
+ Bus Id:5
+ Station Id:15
+ Passangers entering:6
+ Passangers leaving:18
+ Passangers in bus:28
+  Time { hour: 11, minute: 18 } | Time { hour: 11, minute: 18 }
+Simulation: Time { hour: 11, minute: 19 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:4
+ Station Id:12
+ Passangers entering:12
+ Passangers leaving:21
+ Passangers in bus:43
+  Time { hour: 11, minute: 20 } | Time { hour: 11, minute: 20 }
+Simulation: Time { hour: 11, minute: 21 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:11
+ Passangers entering:10
+ Passangers leaving:29
+ Passangers in bus:31
+  Time { hour: 11, minute: 21 } | Time { hour: 11, minute: 21 }
+ Bus Id:6
+ Station Id:16
+ Passangers entering:8
+ Passangers leaving:21
+ Passangers in bus:40
+  Time { hour: 11, minute: 21 } | Time { hour: 11, minute: 21 }
+Simulation: Time { hour: 11, minute: 22 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:6
+ Station Id:14
+ Passangers entering:12
+ Passangers leaving:16
+ Passangers in bus:36
+  Time { hour: 11, minute: 24 } | Time { hour: 11, minute: 24 }
+Simulation: Time { hour: 11, minute: 25 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:5
+ Passangers entering:13
+ Passangers leaving:18
+ Passangers in bus:28
+  Time { hour: 11, minute: 25 } | Time { hour: 11, minute: 25 }
+Simulation: Time { hour: 11, minute: 26 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:3
+ Station Id:16
+ Passangers entering:6
+ Passangers leaving:18
+ Passangers in bus:19
+  Time { hour: 11, minute: 26 } | Time { hour: 11, minute: 26 }
+ Bus Id:4
+ Station Id:14
+ Passangers entering:12
+ Passangers leaving:22
+ Passangers in bus:33
+  Time { hour: 11, minute: 26 } | Time { hour: 11, minute: 26 }
+Simulation: Time { hour: 11, minute: 27 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:10
+ Passangers entering:15
+ Passangers leaving:4
+ Passangers in bus:42
+  Time { hour: 11, minute: 27 } | Time { hour: 11, minute: 27 }
+ Bus Id:5
+ Station Id:14
+ Passangers entering:14
+ Passangers leaving:23
+ Passangers in bus:19
+  Time { hour: 11, minute: 27 } | Time { hour: 11, minute: 27 }
+Simulation: Time { hour: 11, minute: 28 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:4
+ Passangers entering:11
+ Passangers leaving:2
+ Passangers in bus:37
+  Time { hour: 11, minute: 31 } | Time { hour: 11, minute: 31 }
+ Bus Id:3
+ Station Id:14
+ Passangers entering:13
+ Passangers leaving:13
+ Passangers in bus:19
+  Time { hour: 11, minute: 31 } | Time { hour: 11, minute: 31 }
+ Bus Id:4
+ Station Id:12
+ Passangers entering:28
+ Passangers leaving:4
+ Passangers in bus:57
+  Time { hour: 11, minute: 31 } | Time { hour: 11, minute: 31 }
+Simulation: Time { hour: 11, minute: 32 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:9
+ Passangers entering:13
+ Passangers leaving:2
+ Passangers in bus:53
+  Time { hour: 11, minute: 32 } | Time { hour: 11, minute: 32 }
+ Bus Id:6
+ Station Id:16
+ Passangers entering:14
+ Passangers leaving:1
+ Passangers in bus:49
+  Time { hour: 11, minute: 32 } | Time { hour: 11, minute: 32 }
+Simulation: Time { hour: 11, minute: 33 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:3
+ Passangers entering:10
+ Passangers leaving:9
+ Passangers in bus:38
+  Time { hour: 11, minute: 36 } | Time { hour: 11, minute: 36 }
+ Bus Id:3
+ Station Id:16
+ Passangers entering:12
+ Passangers leaving:2
+ Passangers in bus:29
+  Time { hour: 11, minute: 36 } | Time { hour: 11, minute: 36 }
+ Bus Id:6
+ Station Id:17
+ Passangers entering:13
+ Passangers leaving:7
+ Passangers in bus:55
+  Time { hour: 11, minute: 36 } | Time { hour: 11, minute: 36 }
+Simulation: Time { hour: 11, minute: 37 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:5
+ Station Id:15
+ Passangers entering:13
+ Passangers leaving:7
+ Passangers in bus:25
+  Time { hour: 11, minute: 37 } | Time { hour: 11, minute: 37 }
+Simulation: Time { hour: 11, minute: 38 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:8
+ Passangers entering:11
+ Passangers leaving:10
+ Passangers in bus:54
+  Time { hour: 11, minute: 38 } | Time { hour: 11, minute: 38 }
+ Bus Id:4
+ Station Id:13
+ Passangers entering:6
+ Passangers leaving:7
+ Passangers in bus:56
+  Time { hour: 11, minute: 38 } | Time { hour: 11, minute: 38 }
+Simulation: Time { hour: 11, minute: 39 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:2
+ Passangers entering:13
+ Passangers leaving:14
+ Passangers in bus:37
+  Time { hour: 11, minute: 41 } | Time { hour: 11, minute: 41 }
+ Bus Id:2
+ Station Id:7
+ Passangers entering:9
+ Passangers leaving:13
+ Passangers in bus:50
+  Time { hour: 11, minute: 41 } | Time { hour: 11, minute: 41 }
+ Bus Id:6
+ Station Id:12
+ Passangers entering:14
+ Passangers leaving:20
+ Passangers in bus:49
+  Time { hour: 11, minute: 41 } | Time { hour: 11, minute: 41 }
+Simulation: Time { hour: 11, minute: 42 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:4
+ Station Id:15
+ Passangers entering:8
+ Passangers leaving:12
+ Passangers in bus:52
+  Time { hour: 11, minute: 42 } | Time { hour: 11, minute: 42 }
+Simulation: Time { hour: 11, minute: 43 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:6
+ Station Id:4
+ Passangers entering:12
+ Passangers leaving:14
+ Passangers in bus:47
+  Time { hour: 11, minute: 45 } | Time { hour: 11, minute: 45 }
+Simulation: Time { hour: 11, minute: 46 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:3
+ Station Id:18
+ Passangers entering:12
+ Passangers leaving:10
+ Passangers in bus:31
+  Time { hour: 11, minute: 46 } | Time { hour: 11, minute: 46 }
+ Bus Id:5
+ Station Id:8
+ Passangers entering:9
+ Passangers leaving:9
+ Passangers in bus:25
+  Time { hour: 11, minute: 46 } | Time { hour: 11, minute: 46 }
+Simulation: Time { hour: 11, minute: 47 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:1
+ Passangers entering:15
+ Passangers leaving:22
+ Passangers in bus:30
+  Time { hour: 11, minute: 47 } | Time { hour: 11, minute: 47 }
+Simulation: Time { hour: 11, minute: 48 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:2
+ Station Id:5
+ Passangers entering:14
+ Passangers leaving:30
+ Passangers in bus:34
+  Time { hour: 11, minute: 48 } | Time { hour: 11, minute: 48 }
+ Bus Id:4
+ Station Id:19
+ Passangers entering:15
+ Passangers leaving:17
+ Passangers in bus:50
+  Time { hour: 11, minute: 48 } | Time { hour: 11, minute: 48 }
+Simulation: Time { hour: 11, minute: 49 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:6
+ Station Id:21
+ Passangers entering:14
+ Passangers leaving:25
+ Passangers in bus:36
+  Time { hour: 11, minute: 52 } | Time { hour: 11, minute: 52 }
+Simulation: Time { hour: 11, minute: 53 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:4
+ Station Id:1
+ Passangers entering:6
+ Passangers leaving:28
+ Passangers in bus:28
+  Time { hour: 11, minute: 54 } | Time { hour: 11, minute: 54 }
+ Bus Id:5
+ Station Id:20
+ Passangers entering:10
+ Passangers leaving:13
+ Passangers in bus:22
+  Time { hour: 11, minute: 54 } | Time { hour: 11, minute: 54 }
+Simulation: Time { hour: 11, minute: 55 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:3
+ Station Id:19
+ Passangers entering:16
+ Passangers leaving:21
+ Passangers in bus:26
+  Time { hour: 11, minute: 58 } | Time { hour: 11, minute: 58 }
+Simulation: Time { hour: 11, minute: 59 } Date { year: 2025, month: 12, day: 12 }
+ Bus Id:1
+ Station Id:1
+ Passangers entering:13
+ Passangers leaving:0
+ Passangers in bus:43
+  Time { hour: 12, minute: 0 } | Time { hour: 12, minute: 0 }
+ Bus Id:2
+ Station Id:5
+ Passangers entering:11
+ Passangers leaving:0
+ Passangers in bus:45
+  Time { hour: 12, minute: 0 } | Time { hour: 12, minute: 0 }
+ Bus Id:3
+ Station Id:19
+ Passangers entering:13
+ Passangers leaving:0
+ Passangers in bus:39
+  Time { hour: 12, minute: 0 } | Time { hour: 12, minute: 0 }
+ Bus Id:4
+ Station Id:1
+ Passangers entering:12
+ Passangers leaving:0
+ Passangers in bus:40
+  Time { hour: 12, minute: 0 } | Time { hour: 12, minute: 0 }
+ Bus Id:5
+ Station Id:20
+ Passangers entering:10
+ Passangers leaving:0
+ Passangers in bus:32
+  Time { hour: 12, minute: 0 } | Time { hour: 12, minute: 0 }
+ Bus Id:6
+ Station Id:21
+ Passangers entering:12
+ Passangers leaving:0
+ Passangers in bus:48
+  Time { hour: 12, minute: 0 } | Time { hour: 12, minute: 0 }
+Simulation: Time { hour: 12, minute: 1 } Date { year: 2025, month: 12, day: 13 }
+ Bus Id:2
+ Station Id:7
+ Passangers entering:15
+ Passangers leaving:8
+ Passangers in bus:52
+  Time { hour: 12, minute: 4 } | Time { hour: 12, minute: 4 }
+Simulation: Time { hour: 12, minute: 5 } Date { year: 2025, month: 12, day: 14 }
+ Bus Id:1
+ Station Id:2
+ Passangers entering:6
+ Passangers leaving:10
+ Passangers in bus:39
+  Time { hour: 12, minute: 5 } | Time { hour: 12, minute: 5 }
+ Bus Id:4
+ Station Id:19
+ Passangers entering:8
+ Passangers leaving:7
+ Passangers in bus:41
+  Time { hour: 12, minute: 5 } | Time { hour: 12, minute: 5 }
+Simulation: Time { hour: 12, minute: 6 } Date { year: 2025, month: 12, day: 15 }
+ Bus Id:6
+ Station Id:4
+ Passangers entering:7
+ Passangers leaving:4
+ Passangers in bus:51
+  Time { hour: 12, minute: 6 } | Time { hour: 12, minute: 6 }
+Simulation: Time { hour: 12, minute: 7 } Date { year: 2025, month: 12, day: 16 }
+ Bus Id:5
+ Station Id:8
+ Passangers entering:14
+ Passangers leaving:8
+ Passangers in bus:38
+  Time { hour: 12, minute: 8 } | Time { hour: 12, minute: 8 }
+Simulation: Time { hour: 12, minute: 9 } Date { year: 2025, month: 12, day: 17 }
+ Bus Id:2
+ Station Id:8
+ Passangers entering:13
+ Passangers leaving:9
+ Passangers in bus:56
+  Time { hour: 12, minute: 9 } | Time { hour: 12, minute: 9 }
+ Bus Id:4
+ Station Id:15
+ Passangers entering:6
+ Passangers leaving:3
+ Passangers in bus:44
+  Time { hour: 12, minute: 9 } | Time { hour: 12, minute: 9 }
+Simulation: Time { hour: 12, minute: 10 } Date { year: 2025, month: 12, day: 18 }
+ Bus Id:1
+ Station Id:3
+ Passangers entering:16
+ Passangers leaving:9
+ Passangers in bus:46
+  Time { hour: 12, minute: 11 } | Time { hour: 12, minute: 11 }
+ Bus Id:6
+ Station Id:12
+ Passangers entering:20
+ Passangers leaving:16
+ Passangers in bus:55
+  Time { hour: 12, minute: 11 } | Time { hour: 12, minute: 11 }
+Simulation: Time { hour: 12, minute: 12 } Date { year: 2025, month: 12, day: 19 }
+ Bus Id:3
+ Station Id:18
+ Passangers entering:10
+ Passangers leaving:7
+ Passangers in bus:42
+  Time { hour: 12, minute: 12 } | Time { hour: 12, minute: 12 }
+Simulation: Time { hour: 12, minute: 13 } Date { year: 2025, month: 12, day: 20 }
+ Bus Id:2
+ Station Id:9
+ Passangers entering:9
+ Passangers leaving:13
+ Passangers in bus:52
+  Time { hour: 12, minute: 13 } | Time { hour: 12, minute: 13 }
+Simulation: Time { hour: 12, minute: 14 } Date { year: 2025, month: 12, day: 21 }
+ Bus Id:4
+ Station Id:13
+ Passangers entering:14
+ Passangers leaving:4
+ Passangers in bus:54
+  Time { hour: 12, minute: 14 } | Time { hour: 12, minute: 14 }
+ Bus Id:6
+ Station Id:17
+ Passangers entering:9
+ Passangers leaving:17
+ Passangers in bus:47
+  Time { hour: 12, minute: 14 } | Time { hour: 12, minute: 14 }
+Simulation: Time { hour: 12, minute: 15 } Date { year: 2025, month: 12, day: 22 }
+ Bus Id:1
+ Station Id:4
+ Passangers entering:16
+ Passangers leaving:11
+ Passangers in bus:51
+  Time { hour: 12, minute: 18 } | Time { hour: 12, minute: 18 }
+ Bus Id:2
+ Station Id:10
+ Passangers entering:16
+ Passangers leaving:18
+ Passangers in bus:50
+  Time { hour: 12, minute: 18 } | Time { hour: 12, minute: 18 }
+ Bus Id:5
+ Station Id:15
+ Passangers entering:14
+ Passangers leaving:14
+ Passangers in bus:38
+  Time { hour: 12, minute: 18 } | Time { hour: 12, minute: 18 }
+Simulation: Time { hour: 12, minute: 19 } Date { year: 2025, month: 12, day: 23 }
+ Bus Id:4
+ Station Id:12
+ Passangers entering:24
+ Passangers leaving:26
+ Passangers in bus:52
+  Time { hour: 12, minute: 20 } | Time { hour: 12, minute: 20 }
+Simulation: Time { hour: 12, minute: 21 } Date { year: 2025, month: 12, day: 24 }
+ Bus Id:2
+ Station Id:11
+ Passangers entering:7
+ Passangers leaving:22
+ Passangers in bus:35
+  Time { hour: 12, minute: 21 } | Time { hour: 12, minute: 21 }
+ Bus Id:6
+ Station Id:16
+ Passangers entering:15
+ Passangers leaving:13
+ Passangers in bus:49
+  Time { hour: 12, minute: 21 } | Time { hour: 12, minute: 21 }
+Simulation: Time { hour: 12, minute: 22 } Date { year: 2025, month: 12, day: 25 }
+ Bus Id:6
+ Station Id:14
+ Passangers entering:14
+ Passangers leaving:24
+ Passangers in bus:39
+  Time { hour: 12, minute: 24 } | Time { hour: 12, minute: 24 }
+Simulation: Time { hour: 12, minute: 25 } Date { year: 2025, month: 12, day: 26 }
+ Bus Id:1
+ Station Id:5
+ Passangers entering:9
+ Passangers leaving:26
+ Passangers in bus:34
+  Time { hour: 12, minute: 25 } | Time { hour: 12, minute: 25 }
+Simulation: Time { hour: 12, minute: 26 } Date { year: 2025, month: 12, day: 27 }
+ Bus Id:3
+ Station Id:16
+ Passangers entering:10
+ Passangers leaving:18
+ Passangers in bus:34
+  Time { hour: 12, minute: 26 } | Time { hour: 12, minute: 26 }
+ Bus Id:4
+ Station Id:14
+ Passangers entering:13
+ Passangers leaving:23
+ Passangers in bus:42
+  Time { hour: 12, minute: 26 } | Time { hour: 12, minute: 26 }
+Simulation: Time { hour: 12, minute: 27 } Date { year: 2025, month: 12, day: 28 }
+ Bus Id:2
+ Station Id:10
+ Passangers entering:15
+ Passangers leaving:2
+ Passangers in bus:48
+  Time { hour: 12, minute: 27 } | Time { hour: 12, minute: 27 }
+ Bus Id:5
+ Station Id:14
+ Passangers entering:9
+ Passangers leaving:22
+ Passangers in bus:25
+  Time { hour: 12, minute: 27 } | Time { hour: 12, minute: 27 }
+Simulation: Time { hour: 12, minute: 28 } Date { year: 2025, month: 12, day: 29 }
+ Bus Id:1
+ Station Id:4
+ Passangers entering:14
+ Passangers leaving:4
+ Passangers in bus:44
+  Time { hour: 12, minute: 31 } | Time { hour: 12, minute: 31 }
+ Bus Id:3
+ Station Id:14
+ Passangers entering:7
+ Passangers leaving:24
+ Passangers in bus:17
+  Time { hour: 12, minute: 31 } | Time { hour: 12, minute: 31 }
+ Bus Id:4
+ Station Id:12
+ Passangers entering:21
+ Passangers leaving:6
+ Passangers in bus:57
+  Time { hour: 12, minute: 31 } | Time { hour: 12, minute: 31 }
+Simulation: Time { hour: 12, minute: 32 } Date { year: 2025, month: 12, day: 30 }
+ Bus Id:2
+ Station Id:9
+ Passangers entering:11
+ Passangers leaving:13
+ Passangers in bus:46
+  Time { hour: 12, minute: 32 } | Time { hour: 12, minute: 32 }
+ Bus Id:6
+ Station Id:16
+ Passangers entering:12
+ Passangers leaving:2
+ Passangers in bus:49
+  Time { hour: 12, minute: 32 } | Time { hour: 12, minute: 32 }
+Simulation: Time { hour: 12, minute: 33 } Date { year: 2025, month: 12, day: 31 }
+ Bus Id:1
+ Station Id:3
+ Passangers entering:12
+ Passangers leaving:9
+ Passangers in bus:47
+  Time { hour: 12, minute: 36 } | Time { hour: 12, minute: 36 }
+ Bus Id:3
+ Station Id:16
+ Passangers entering:10
+ Passangers leaving:0
+ Passangers in bus:27
+  Time { hour: 12, minute: 36 } | Time { hour: 12, minute: 36 }
+ Bus Id:6
+ Station Id:17
+ Passangers entering:12
+ Passangers leaving:6
+ Passangers in bus:55
+  Time { hour: 12, minute: 36 } | Time { hour: 12, minute: 36 }
+Simulation terminated on Date { year: 2026, month: 1, day: 1 }

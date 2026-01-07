@@ -8,141 +8,204 @@
         "month":12,
         "day":12
     },
+    "stations": [
+        {
+            "staid":{"id_number":1},
+            "atract": [
+                {"start_hour": 7, "end_hour": 9, "att": 0.8},
+                {"start_hour": 13, "end_hour": 15, "att": 0.8}
+            ]
+        },
+        {
+            "staid":{"id_number":2},
+            "atract": null
+        },
+        {
+            "staid":{"id_number":3},
+            "atract": null
+        },
+        {
+            "staid":{"id_number":4},
+            "atract": [
+                {"start_hour": 7, "end_hour": 9, "att": 0.8},
+                {"start_hour": 13, "end_hour": 15, "att": 0.8}
+            ]
+        },
+        {
+            "staid":{"id_number":5},
+            "atract": null
+        },
+        {
+            "staid":{"id_number":6},
+            "atract": null
+        },
+        {
+            "staid":{"id_number":7},
+            "atract": [
+                {"start_hour": 7, "end_hour": 9, "att": 0.8},
+                {"start_hour": 13, "end_hour": 15, "att": 0.8}
+            ]
+        },
+        {
+            "staid":{"id_number":8},
+            "atract": null
+        },
+        {
+            "staid":{"id_number":9},
+            "atract": null
+        },
+        {
+            "staid":{"id_number":10},
+            "atract": null
+        },
+        {
+            "staid":{"id_number":11},
+            "atract": null
+        },
+        {
+            "staid":{"id_number":12},
+            "atract": [
+                {"start_hour": 6, "end_hour": 23, "att": 0.9}
+            ]
+        },
+        {
+            "staid":{"id_number":13},
+            "atract": [
+                {"start_hour": 7, "end_hour": 9, "att": 0.7},
+                {"start_hour": 16, "end_hour": 18, "att": 0.7}
+            ]
+        },
+        {
+            "staid":{"id_number":14},
+            "atract": null
+        },
+        {
+            "staid":{"id_number":15},
+            "atract": null
+        },
+        {
+            "staid":{"id_number":16},
+            "atract": null
+        },
+        {
+            "staid":{"id_number":17},
+            "atract": null
+        },
+        {
+            "staid":{"id_number":18},
+            "atract": [
+                {"start_hour": 7, "end_hour": 9, "att": 0.7},
+                {"start_hour": 16, "end_hour": 18, "att": 0.7}
+            ]
+        },
+        {
+            "staid":{"id_number":19},
+            "atract": [
+                {"start_hour": 7, "end_hour": 9, "att": 0.7},
+                {"start_hour": 16, "end_hour": 18, "att": 0.7}
+            ]
+        },
+        {
+            "staid":{"id_number":20},
+            "atract": null
+        },
+        {
+            "staid":{"id_number":21},
+            "atract": null
+        },
+        {
+            "staid":{"id_number":22},
+            "atract": [
+                {"start_hour": 7, "end_hour": 9, "att": 0.7},
+                {"start_hour": 16, "end_hour": 18, "att": 0.7}
+            ]
+        }
+    ],
     "bus_plans":[
         {
             "busid":{"id_number":1},
             "points":[
-                {
-                    "time":{"hour":6,"minute":0},
-                    "staid":{"id_number":1}
-                },
-                {
-                    "time":{"hour":6,"minute":10},
-                    "staid":{"id_number":2}
-                },
-                {
-                    "time":{"hour":6,"minute":21},
-                    "staid":{"id_number":3}
-                },
-                {
-                    "time":{"hour":6,"minute":33},
-                    "staid":{"id_number":4}
-                },
-                {
-                    "time":{"hour":6,"minute":39},
-                    "staid":{"id_number":5}
-                },
-                {
-                    "time":{"hour":6,"minute":48},
-                    "staid":{"id_number":6}
-                },
-                {
-                    "time":{"hour":6,"minute":59},
-                    "staid":{"id_number":7}
-                }
+                { "time":{"hour":6,"minute":0}, "staid":{"id_number":1} },
+                { "time":{"hour":6,"minute":5}, "staid":{"id_number":2} },
+                { "time":{"hour":6,"minute":11}, "staid":{"id_number":3} },
+                { "time":{"hour":6,"minute":18}, "staid":{"id_number":4} },
+                { "time":{"hour":6,"minute":25}, "staid":{"id_number":5} },
+                { "time":{"hour":6,"minute":31}, "staid":{"id_number":4} },
+                { "time":{"hour":6,"minute":36}, "staid":{"id_number":3} },
+                { "time":{"hour":6,"minute":41}, "staid":{"id_number":2} },
+                { "time":{"hour":6,"minute":47}, "staid":{"id_number":1} }
             ]
         },
         {
             "busid":{"id_number":2},
             "points":[
-                {
-                    "time":{"hour":6,"minute":0},
-                    "staid":{"id_number":8}
-                },
-                {
-                    "time":{"hour":6,"minute":10},
-                    "staid":{"id_number":9}
-                },
-                {
-                    "time":{"hour":6,"minute":18},
-                    "staid":{"id_number":6}
-                },
-                {
-                    "time":{"hour":6,"minute":21},
-                    "staid":{"id_number":10}
-                },
-                {
-                    "time":{"hour":6,"minute":37},
-                    "staid":{"id_number":11}
-                }
-
+                { "time":{"hour":6,"minute":0}, "staid":{"id_number":5} },
+                { "time":{"hour":6,"minute":4}, "staid":{"id_number":7} },
+                { "time":{"hour":6,"minute":9}, "staid":{"id_number":8} },
+                { "time":{"hour":6,"minute":13}, "staid":{"id_number":9} },
+                { "time":{"hour":6,"minute":18}, "staid":{"id_number":10} },
+                { "time":{"hour":6,"minute":21}, "staid":{"id_number":11} },
+                { "time":{"hour":6,"minute":27}, "staid":{"id_number":10} },
+                { "time":{"hour":6,"minute":32}, "staid":{"id_number":9} },
+                { "time":{"hour":6,"minute":38}, "staid":{"id_number":8} },
+                { "time":{"hour":6,"minute":41}, "staid":{"id_number":7} },
+                { "time":{"hour":6,"minute":48}, "staid":{"id_number":5} }
             ]
         },
         {
             "busid":{"id_number":3},
             "points":[
-                {
-                    "time":{"hour":6,"minute":0},
-                    "staid":{"id_number":12}
-                },
-                {
-                    "time":{"hour":6,"minute":10},
-                    "staid":{"id_number":13}
-                },
-                {
-                    "time":{"hour":6,"minute":18},
-                    "staid":{"id_number":14}
-                },
-                {
-                    "time":{"hour":6,"minute":29},
-                    "staid":{"id_number":15}
-                },
-                {
-                    "time":{"hour":6,"minute":37},
-                    "staid":{"id_number":16}
-                }
-
+                { "time":{"hour":6,"minute":0}, "staid":{"id_number":19} },
+                { "time":{"hour":6,"minute":12}, "staid":{"id_number":18} },
+                { "time":{"hour":6,"minute":26}, "staid":{"id_number":16} },
+                { "time":{"hour":6,"minute":31}, "staid":{"id_number":14} },
+                { "time":{"hour":6,"minute":36}, "staid":{"id_number":16} },
+                { "time":{"hour":6,"minute":46}, "staid":{"id_number":18} },
+                { "time":{"hour":6,"minute":58}, "staid":{"id_number":19} }
             ]
         },
         {
             "busid":{"id_number":4},
             "points":[
-                {
-                    "time":{"hour":6,"minute":0},
-                    "staid":{"id_number":1}
-                },
-                {
-                    "time":{"hour":6,"minute":10},
-                    "staid":{"id_number":17}
-                },
-                {
-                    "time":{"hour":6,"minute":18},
-                    "staid":{"id_number":18}
-                },
-                {
-                    "time":{"hour":6,"minute":26},
-                    "staid":{"id_number":19}
-                },
-                {
-                    "time":{"hour":6,"minute":34},
-                    "staid":{"id_number":20}
-                },
-                {
-                    "time":{"hour":6,"minute":48},
-                    "staid":{"id_number":16}
-                }
-
+                { "time":{"hour":6,"minute":0}, "staid":{"id_number":1} },
+                { "time":{"hour":6,"minute":5}, "staid":{"id_number":19} },
+                { "time":{"hour":6,"minute":9}, "staid":{"id_number":15} },
+                { "time":{"hour":6,"minute":14}, "staid":{"id_number":13} },
+                { "time":{"hour":6,"minute":20}, "staid":{"id_number":12} },
+                { "time":{"hour":6,"minute":26}, "staid":{"id_number":14} },
+                { "time":{"hour":6,"minute":31}, "staid":{"id_number":12} },
+                { "time":{"hour":6,"minute":38}, "staid":{"id_number":13} },
+                { "time":{"hour":6,"minute":42}, "staid":{"id_number":15} },
+                { "time":{"hour":6,"minute":48}, "staid":{"id_number":19} },
+                { "time":{"hour":6,"minute":54}, "staid":{"id_number":1} }
             ]
         },
         {
             "busid":{"id_number":5},
             "points":[
-                {
-                    "time":{"hour":6,"minute":0},
-                    "staid":{"id_number":21}
-                },
-                {
-                    "time":{"hour":6,"minute":10},
-                    "staid":{"id_number":9}
-                },
-                {
-                    "time":{"hour":6,"minute":18},
-                    "staid":{"id_number":18}
-                },
-                {
-                    "time":{"hour":6,"minute":26},
-                    "staid":{"id_number":16}
-                }
+                { "time":{"hour":6,"minute":0}, "staid":{"id_number":20} },
+                { "time":{"hour":6,"minute":8}, "staid":{"id_number":8} },
+                { "time":{"hour":6,"minute":18}, "staid":{"id_number":15} },
+                { "time":{"hour":6,"minute":27}, "staid":{"id_number":14} },
+                { "time":{"hour":6,"minute":37}, "staid":{"id_number":15} },
+                { "time":{"hour":6,"minute":46}, "staid":{"id_number":8} },
+                { "time":{"hour":6,"minute":54}, "staid":{"id_number":20} }
+            ]
+        },
+        {
+            "busid":{"id_number":6},
+            "points":[
+                { "time":{"hour":6,"minute":0}, "staid":{"id_number":21} },
+                { "time":{"hour":6,"minute":6}, "staid":{"id_number":4} },
+                { "time":{"hour":6,"minute":11}, "staid":{"id_number":12} },
+                { "time":{"hour":6,"minute":14}, "staid":{"id_number":17} },
+                { "time":{"hour":6,"minute":21}, "staid":{"id_number":16} },
+                { "time":{"hour":6,"minute":24}, "staid":{"id_number":14} },
+                { "time":{"hour":6,"minute":32}, "staid":{"id_number":16} },
+                { "time":{"hour":6,"minute":36}, "staid":{"id_number":17} },
+                { "time":{"hour":6,"minute":41}, "staid":{"id_number":12} },
+                { "time":{"hour":6,"minute":45}, "staid":{"id_number":4} },
+                { "time":{"hour":6,"minute":52}, "staid":{"id_number":21} }
             ]
         }
     ]
