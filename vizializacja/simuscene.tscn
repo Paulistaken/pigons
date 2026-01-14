@@ -1,0 +1,167 @@
+[gd_scene load_steps=12 format=3 uid="uid://bvtjxudebkw7d"]
+
+[ext_resource type="PackedScene" uid="uid://7do2r18j7qgg" path="res://Przystanek.fbx" id="1_hwg3a"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ff3nv"]
+albedo_color = Color(0.16206557, 0.1620656, 0.16206557, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_rk5y5"]
+material = SubResource("StandardMaterial3D_ff3nv")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cdinj"]
+albedo_color = Color(0.07338353, 0.14403564, 0.041896716, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_32m2e"]
+material = SubResource("StandardMaterial3D_cdinj")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_waum1"]
+albedo_color = Color(0.056291647, 0.056291588, 0.056291595, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_cgciu"]
+material = SubResource("StandardMaterial3D_waum1")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wpw03"]
+albedo_color = Color(0.8819366, 0.8819366, 0.88193655, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_meom1"]
+material = SubResource("StandardMaterial3D_wpw03")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pfbmb"]
+albedo_color = Color(0.29201686, 0.14016524, 0.05695083, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_a07mk"]
+material = SubResource("StandardMaterial3D_pfbmb")
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Przystanek" parent="." instance=ExtResource("1_hwg3a")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.79, 0, 2.01)
+
+[node name="Scena" type="Node3D" parent="."]
+
+[node name="hodnik" type="MeshInstance3D" parent="Scena"]
+transform = Transform3D(200, 0, 0, 0, 1, 0, 0, 0, 50, 1.0267715, -0.47911704, 22.112776)
+mesh = SubResource("BoxMesh_rk5y5")
+skeleton = NodePath("../../Przystanek")
+
+[node name="trawnik" type="MeshInstance3D" parent="Scena/hodnik"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.5, 0, 0.085, 0)
+mesh = SubResource("BoxMesh_32m2e")
+skeleton = NodePath("../Przystanek")
+
+[node name="droga" type="MeshInstance3D" parent="Scena"]
+transform = Transform3D(200, 0, 0, 0, 1, 0, 0, 0, 10, 0, -0.958, -6.27262)
+mesh = SubResource("BoxMesh_cgciu")
+skeleton = NodePath("../../Przystanek")
+
+[node name="droga" type="MeshInstance3D" parent="Scena/droga"]
+transform = Transform3D(1.0000001, 0, 0, 0, 1, 0, 0, 0, 0.05, 0, 0.016381264, 0)
+visible = false
+mesh = SubResource("BoxMesh_meom1")
+skeleton = NodePath("../Przystanek")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Scena"]
+transform = Transform3D(200, 0, 0, 0, 10, 0, 0, 0, 1, 0, 5, 22.412071)
+mesh = SubResource("BoxMesh_a07mk")
+
+[node name="hodnik2" type="MeshInstance3D" parent="Scena"]
+transform = Transform3D(200, 0, 0, 0, 1, 0, 0, 0, 50, 1.0267715, -0.47911704, -35.28389)
+mesh = SubResource("BoxMesh_rk5y5")
+skeleton = NodePath("../../Przystanek")
+
+[node name="trawnik" type="MeshInstance3D" parent="Scena/hodnik2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.5, 0, 0.085, 0)
+mesh = SubResource("BoxMesh_32m2e")
+skeleton = NodePath("../Przystanek")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="Scena"]
+transform = Transform3D(200, 0, 0, 0, 10, 0, 0, 0, 1, -2.9882813, 5, -45.46447)
+mesh = SubResource("BoxMesh_a07mk")
+
+[node name="Scena2" type="Node3D" parent="."]
+transform = Transform3D(0.9640954, 0, 0.26555613, 0, 1, 0, -0.26555613, 0, 0.9640954, -187.52855, 0, 26.042934)
+
+[node name="hodnik" type="MeshInstance3D" parent="Scena2"]
+transform = Transform3D(200, 0, 0, 0, 1, 0, 0, 0, 50, 1.0267715, -0.47911704, 22.112776)
+mesh = SubResource("BoxMesh_rk5y5")
+skeleton = NodePath("../../Przystanek")
+
+[node name="trawnik" type="MeshInstance3D" parent="Scena2/hodnik"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.5, 0, 0.085, 0)
+mesh = SubResource("BoxMesh_32m2e")
+skeleton = NodePath("../Przystanek")
+
+[node name="droga" type="MeshInstance3D" parent="Scena2"]
+transform = Transform3D(200, 0, 0, 0, 1, 0, 0, 0, 10, 0, -0.958, -6.27262)
+mesh = SubResource("BoxMesh_cgciu")
+skeleton = NodePath("../../Przystanek")
+
+[node name="droga" type="MeshInstance3D" parent="Scena2/droga"]
+transform = Transform3D(1.0000001, 0, 0, 0, 1, 0, 0, 0, 0.05, 0, 0.016381264, 0)
+visible = false
+mesh = SubResource("BoxMesh_meom1")
+skeleton = NodePath("../Przystanek")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Scena2"]
+transform = Transform3D(200, 0, 0, 0, 10, 0, 0, 0, 1, 0, 5, 22.412071)
+mesh = SubResource("BoxMesh_a07mk")
+
+[node name="hodnik2" type="MeshInstance3D" parent="Scena2"]
+transform = Transform3D(200, 0, 0, 0, 1, 0, 0, 0, 50, 1.0267715, -0.47911704, -35.28389)
+mesh = SubResource("BoxMesh_rk5y5")
+skeleton = NodePath("../../Przystanek")
+
+[node name="trawnik" type="MeshInstance3D" parent="Scena2/hodnik2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.5, 0, 0.085, 0)
+mesh = SubResource("BoxMesh_32m2e")
+skeleton = NodePath("../Przystanek")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="Scena2"]
+transform = Transform3D(200, 0, 0, 0, 10, 0, 0, 0, 1, 4.9722137, 5, -45.963966)
+mesh = SubResource("BoxMesh_a07mk")
+
+[node name="Scena3" type="Node3D" parent="."]
+transform = Transform3D(0.8269629, 4.8050874e-09, 0.56225663, 0, 1.0000001, 0, -0.5622567, 1.4105167e-08, 0.8269629, -352.20746, 3.8146973e-06, 103.697334)
+
+[node name="hodnik" type="MeshInstance3D" parent="Scena3"]
+transform = Transform3D(200, 0, 0, 0, 1, 0, 0, 0, 50, 1.0267715, -0.47911704, 22.112776)
+mesh = SubResource("BoxMesh_rk5y5")
+skeleton = NodePath("../../Przystanek")
+
+[node name="trawnik" type="MeshInstance3D" parent="Scena3/hodnik"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.5, 0, 0.085, 0)
+mesh = SubResource("BoxMesh_32m2e")
+skeleton = NodePath("../Przystanek")
+
+[node name="droga" type="MeshInstance3D" parent="Scena3"]
+transform = Transform3D(200, 0, 0, 0, 1, 0, 0, 0, 10, 0, -0.958, -6.27262)
+mesh = SubResource("BoxMesh_cgciu")
+skeleton = NodePath("../../Przystanek")
+
+[node name="droga" type="MeshInstance3D" parent="Scena3/droga"]
+transform = Transform3D(1.0000001, 0, 0, 0, 1, 0, 0, 0, 0.05, 0, 0.016381264, 0)
+visible = false
+mesh = SubResource("BoxMesh_meom1")
+skeleton = NodePath("../Przystanek")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Scena3"]
+transform = Transform3D(200, 0, 0, 0, 10, 0, 0, 0, 1, 0, 5, 22.412071)
+mesh = SubResource("BoxMesh_a07mk")
+
+[node name="hodnik2" type="MeshInstance3D" parent="Scena3"]
+transform = Transform3D(200, 0, 0, 0, 1, 0, 0, 0, 50, 1.0267715, -0.47911704, -35.28389)
+mesh = SubResource("BoxMesh_rk5y5")
+skeleton = NodePath("../../Przystanek")
+
+[node name="trawnik" type="MeshInstance3D" parent="Scena3/hodnik2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.5, 0, 0.085, 0)
+mesh = SubResource("BoxMesh_32m2e")
+skeleton = NodePath("../Przystanek")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="Scena3"]
+transform = Transform3D(200, 0, 0, 0, 10, 0, 0, 0, 1, 4.9722137, 5, -45.963966)
+mesh = SubResource("BoxMesh_a07mk")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.5671758, -0.23890913, 0.78818405, 0.059104, 0.96634185, 0.25038, -0.8214733, -0.095424645, 0.5622062, 3.495, 2.705, 1.946)
+current = true

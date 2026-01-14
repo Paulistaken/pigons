@@ -4,117 +4,43 @@ use rand::random_range;
 
 use crate::dane_out::{BusEvent, StationId, TDF};
 
-type Time = crate::dane_out::Time;
-type Date = crate::dane_out::Date;
-type BusID = crate::dane_out::BusId;
-type StaId = crate::dane_out::StationId;
+use super::simplestucts::*;
 
-#[derive(Default, Clone, serde_derive::Deserialize, serde_derive::Serialize)]
-pub struct SimuBusPlan {
-    busid: BusID,
-    points: Vec<SimuStopPoint>,
-}
-#[derive(Default, Clone, serde_derive::Deserialize, serde_derive::Serialize)]
-pub struct SimuStopPoint {
-    time: Time,
-    staid: StaId,
-}
-#[derive(Default, Clone, serde_derive::Deserialize, serde_derive::Serialize)]
-pub struct Attractivness {
-    start_hour: u32,
-    end_hour: u32,
-    att: f32,
-}
-#[derive(Default, Clone, serde_derive::Deserialize, serde_derive::Serialize)]
-pub struct SimuStation {
-    staid: StaId,
-    atract: Option<Vec<Attractivness>>,
-}
-#[derive(Default, Clone, serde_derive::Deserialize, serde_derive::Serialize)]
-pub struct SimulationInput {
-    start_time: Time,
-    start_date: Date,
-    stations: Vec<SimuStation>,
-    bus_plans: Vec<SimuBusPlan>,
-}
-#[derive(Debug, Clone)]
-pub struct Passanger {
-    station_to_leave: StaId,
-}
-impl Passanger {
-    pub fn new(id: StaId) -> Self {
-        Self {
-            station_to_leave: id,
-        }
-    }
-}
-#[derive(Debug)]
-pub struct StationData {
-    _id: StaId,
-    attractivness: [Option<f32>; 24],
-}
-impl From<SimuStation> for StationData {
-    fn from(value: SimuStation) -> Self {
-        let mut att = [None; 24];
-        if let Some(attr) = value.atract {
-            for pt in attr {
-                for hr in pt.start_hour..pt.end_hour {
-                    att[hr as usize] = Some(pt.att);
-                }
-            }
-        }
-        Self {
-            _id: value.staid,
-            attractivness: att,
-        }
-    }
-}
+type StationDataTable = HashMap<StaId, StationData>;
+type BusLinesTable = HashMap<BusID, HashMap<StaId, Vec<Time>>>;
+type BusQueueTable = Vec<(Time, BusID, StaId)>;
+
+const MAX_PASSANGERS_IN_BUS: u32 = 65;
+const DEBUG_PRINTS: bool = false;
 
 pub fn run_symulacja() {
     let siminput = std::fs::read_to_string("siminput.json").expect("Error, no siminput.json file");
 
     let mut simulinput: SimulationInput = serde_json::from_str(&siminput).unwrap();
-
-    {
-        for busp in simulinput.bus_plans.iter_mut() {
-            let mut bbs = busp.points.clone();
-            for i in 7..=23 {
-                for b in bbs.iter_mut() {
-                    b.time.hour = i;
-                }
-                busp.points.append(&mut bbs.clone());
-            }
-        }
-    }
+    update_busy(&mut simulinput);
 
     let mut export_logs = vec![];
+    let mut bus_line_logs: HashMap<BusID, Vec<(BusEvent, u32)>> = HashMap::new();
 
     {
         let _ = std::fs::create_dir_all("simresults/pre/csv/pr");
         let _ = std::fs::create_dir_all("simresults/pre/json/pr");
+        let _ = std::fs::create_dir_all("simresults/pre/bus_logs/");
     }
 
     let mut current_time: Time = simulinput.start_time;
     let mut current_date: Date = simulinput.start_date;
 
     let mut passangers_in_bus_list: HashMap<BusID, Vec<Passanger>> = HashMap::new();
-    let mut stations: HashMap<StaId, StationData> = HashMap::new();
-    let mut bus_lines: HashMap<BusID, HashMap<StaId, Vec<Time>>> = HashMap::new();
-    let mut bus_queue: Vec<(Time, BusID, StaId)> = vec![];
-
-    for stationdata in simulinput.stations {
-        stations.insert(stationdata.staid, stationdata.clone().into());
-    }
-    for bus_plan in simulinput.bus_plans {
-        let busp = bus_lines.entry(bus_plan.busid).or_default();
-        for station_point in bus_plan.points {
-            let stap = busp.entry(station_point.staid).or_default();
-            stap.push(station_point.time);
-            stap.sort();
-            bus_queue.push((station_point.time, bus_plan.busid, station_point.staid));
-        }
-    }
-    bus_queue.sort_by(|(t1, _, _), (t2, _, _)| t1.cmp(t2));
+    let mut stations: StationDataTable = StationDataTable::new();
+    let mut bus_lines: BusLinesTable = BusLinesTable::new();
+    let mut bus_queue: BusQueueTable = vec![];
+    load_table_data(
+        &mut simulinput,
+        &mut stations,
+        &mut bus_lines,
+        &mut bus_queue,
+    );
 
     loop {
         if current_date.month == 3 {
@@ -122,7 +48,9 @@ pub fn run_symulacja() {
             break;
         }
 
-        println!("Simulation: {:?} {:?}", current_time, current_date);
+        if DEBUG_PRINTS {
+            println!("Simulation: {:?} {:?}", current_time, current_date);
+        }
 
         let events_to_simulate = bus_queue.iter().filter(|(t, _, _)| *t >= current_time);
         let event_time = events_to_simulate.clone().map(|(t, _, _)| *t).min();
@@ -155,10 +83,13 @@ pub fn run_symulacja() {
 
             let current_att =
                 stations[id_station].attractivness[current_time.hour as usize].unwrap_or(0.5);
-            let min_passangers_enter = (10. * current_att) as u32;
-            let max_passangers_enter = (30. * current_att) as u32;
+            let min_passangers_enter = (2. * current_att) as u32;
+            let max_passangers_enter = (10. * current_att) as u32;
+            let max_passangers_that_can_enter_bus =
+                MAX_PASSANGERS_IN_BUS - passangers_staying.len() as u32;
             let passangers_entering =
-                (0..=rand::random_range(min_passangers_enter..=max_passangers_enter))
+                (0..=rand::random_range(min_passangers_enter..=max_passangers_enter)
+                    .min(max_passangers_that_can_enter_bus))
                     .filter_map(|_i| {
                         let posible_stations = get_possible_future_stations(
                             &current_time,
@@ -203,20 +134,61 @@ pub fn run_symulacja() {
                 id_bus.id_number,
                 id_station.id_number
             );
+            bus_line_logs
+                .entry(export_data.id_of_the_bus)
+                .or_default()
+                .push((export_data.clone(), passanger_still_in_debug as u32));
             export_logs.push((pathname, export_data));
 
-            println!(
-                " Bus Id:{:?}\n Station Id:{:?}\n Passangers entering:{:?}\n Passangers leaving:{:?}\n Passangers in bus:{:?}\n  {:?} | {:?}",
-                id_bus.id_number,
-                id_station.id_number,
-                passangers_entering_amount,
-                passangers_leaving_amount,
-                passanger_still_in_debug,
-                current_time,
-                arrival_time
-            );
+            if DEBUG_PRINTS {
+                println!(
+                    " Bus Id:{:?}\n Station Id:{:?}\n Passangers entering:{:?}\n Passangers leaving:{:?}\n Passangers in bus:{:?}\n  {:?} | {:?}",
+                    id_bus.id_number,
+                    id_station.id_number,
+                    passangers_entering_amount,
+                    passangers_leaving_amount,
+                    passanger_still_in_debug,
+                    current_time,
+                    arrival_time
+                );
+            }
         }
         current_time.next_minute(Some(&mut current_date));
+    }
+    for (bus_id, export_data) in bus_line_logs {
+        let path = format!("./simresults/pre/bus_logs/bus{:?}.txt", bus_id.id_number);
+        let path2 = format!("./simresults/pre/bus_logs/bus{:?}.csv", bus_id.id_number);
+        let mut content = "".to_string();
+        let mut content2 = "hour,minute,year,month,day,station,in,out,inside\n".to_string();
+        let mut cdate = simulinput.start_date;
+        for (data, pin) in export_data {
+            if data.date_of_event != cdate {
+                content += &format!("{:?}\n", data.date_of_event);
+                cdate = data.date_of_event;
+            }
+            content += &format!(
+                "{:?}, {:?}, People coming in {:?}, People going out {:?}, People inside the bus {:?}\n",
+                data.time_of_event,
+                data.id_of_the_station,
+                data.pasangers_coming_in,
+                data.pasangers_coming_out,
+                pin
+            );
+            content2 += &format!("{},{},", data.time_of_event.hour, data.time_of_event.minute);
+            content2 += &format!(
+                "{},{},{},",
+                data.date_of_event.year, data.date_of_event.month, data.date_of_event.day
+            );
+            content2 += &format!(
+                "{},{},{},{}\n",
+                data.id_of_the_station.id_number,
+                data.pasangers_coming_in,
+                data.pasangers_coming_out,
+                pin
+            );
+        }
+        let _ = fs::write(&path, &content);
+        let _ = fs::write(&path2, &content2);
     }
     for (export_path, export_data) in export_logs {
         let serialized_csv = export_data.export_tdf();
@@ -228,8 +200,39 @@ pub fn run_symulacja() {
     }
 }
 
-fn get_random_station<'a, 'b: 'a>(stations: &'b Vec<(&'a StaId, &'a Time, Option<f32>)>) -> StaId {
-    let mut stations = stations.clone();
+fn load_table_data(
+    simulinput: &mut SimulationInput,
+    stations: &mut StationDataTable,
+    bus_lines: &mut BusLinesTable,
+    bus_queue: &mut BusQueueTable,
+) {
+    for stationdata in simulinput.stations.iter() {
+        stations.insert(stationdata.staid, stationdata.clone().into());
+    }
+    for bus_plan in simulinput.bus_plans.iter() {
+        let busp = bus_lines.entry(bus_plan.busid).or_default();
+        for station_point in bus_plan.points.iter() {
+            let stap = busp.entry(station_point.staid).or_default();
+            stap.push(station_point.time);
+            stap.sort();
+            bus_queue.push((station_point.time, bus_plan.busid, station_point.staid));
+        }
+    }
+    bus_queue.sort_by(|(t1, _, _), (t2, _, _)| t1.cmp(t2));
+}
+fn update_busy(simulinput: &mut SimulationInput) {
+    for busp in simulinput.bus_plans.iter_mut() {
+        let mut bbs = busp.points.clone();
+        for i in 7..=23 {
+            for b in bbs.iter_mut() {
+                b.time.hour = i;
+            }
+            busp.points.append(&mut bbs.clone());
+        }
+    }
+}
+fn get_random_station<'a, 'b: 'a>(stations: &'b [(&'a StaId, &'a Time, Option<f32>)]) -> StaId {
+    let mut stations = stations.to_vec();
     stations.sort_by(|(_, _, at1), (_, _, at2)| {
         let at1 = at1.unwrap_or(0.5);
         let at2 = at2.unwrap_or(0.5);

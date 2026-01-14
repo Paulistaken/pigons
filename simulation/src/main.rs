@@ -1,4 +1,6 @@
 pub mod simulsimple;
+pub mod simplestucts;
+
 use crate::dane_out::{BusEvent, Date, TDF};
 
 fn main() {
@@ -399,6 +401,7 @@ pub mod dane_out {
         Debug,
         Clone,
         Copy,
+        PartialEq, Eq,
         serde_derive::Serialize,
         serde_derive::Deserialize,
         bevy_ecs::component::Component,
