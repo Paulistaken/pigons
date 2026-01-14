@@ -192,6 +192,7 @@ pub fn run_symulacja() {
     }
     for (export_path, export_data) in export_logs {
         let serialized_csv = export_data.export_tdf();
+        let serialized_csv = serialized_csv.0 + "\n" + &serialized_csv.1;
         let serialized_json = serde_json::to_string(&export_data).unwrap_or("".to_string());
         let pathcsv = "./simresults/pre/csv/BusEVENT".to_string() + &export_path + ".csv";
         let pathjson = "./simresults/pre/json/BusEVENT".to_string() + &export_path + ".json";

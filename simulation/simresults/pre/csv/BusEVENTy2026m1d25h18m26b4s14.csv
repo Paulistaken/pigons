@@ -1,1 +1,2 @@
-18,26,2026,1,25,4,14,5,11
+hour,minute,year,month,day,bus id,station id,passangers going in,passangers going out
+18,26,2026,1,25,4,14,3,13
