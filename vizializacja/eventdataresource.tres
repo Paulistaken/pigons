@@ -1,0 +1,16 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://csp3n8p336u31"]
+
+[sub_resource type="GDScript" id="GDScript_3judh"]
+script/source = "@export var year : int
+@export var month : int
+@export var day : int
+@export var hour : int
+@export var minute : int
+@export var bus : int
+@export var station : int
+@export var p_in : int
+@export var p_out : int
+"
+
+[resource]
+script = SubResource("GDScript_3judh")

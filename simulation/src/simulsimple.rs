@@ -99,6 +99,10 @@ pub fn run_symulacja() {
                             &bus_lines,
                             &stations,
                         );
+                        let posible_stations = posible_stations.into_iter().filter(|(s,_,_)|{
+                            let ct = passangers_staying.iter().filter(|p| p.station_to_leave == **s).count();
+                            ct < 20
+                        }).collect::<Vec<_>>();
                         if posible_stations.is_empty() {
                             return None;
                         }
