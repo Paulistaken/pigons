@@ -44,7 +44,7 @@ pub fn run_symulacja() {
     );
 
     loop {
-        if current_date.month == 3 {
+        if current_date.month == 4 {
             println!("Simulation terminated on {:?}", current_date);
             break;
         }
