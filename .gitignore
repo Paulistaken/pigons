@@ -1,3 +1,4 @@
 simulation/target
-simulation/simresults/pre/csv/*
-simulation/simresults/pre/json/*
+simulation/target/*
+# simulation/simresults/pre/csv/*
+# simulation/simresults/pre/json/*

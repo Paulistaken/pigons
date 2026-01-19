@@ -11,6 +11,7 @@ type BusLinesTable = HashMap<BusID, HashMap<StaId, Vec<Time>>>;
 type BusQueueTable = Vec<(Time, BusID, StaId)>;
 
 const MAX_PASSANGERS_IN_BUS: u32 = 65;
+const AVRG_PASSANGERS_ON_STATION: (u32, u32) = (2,10);
 const DEBUG_PRINTS: bool = false;
 
 pub fn run_symulacja() {
@@ -83,8 +84,8 @@ pub fn run_symulacja() {
 
             let current_att =
                 stations[id_station].attractivness[current_time.hour as usize].unwrap_or(0.5);
-            let min_passangers_enter = (2. * current_att) as u32;
-            let max_passangers_enter = (10. * current_att) as u32;
+            let min_passangers_enter = (AVRG_PASSANGERS_ON_STATION.0 as f32 * current_att) as u32;
+            let max_passangers_enter = (AVRG_PASSANGERS_ON_STATION.1 as f32 * current_att) as u32;
             let max_passangers_that_can_enter_bus =
                 MAX_PASSANGERS_IN_BUS - passangers_staying.len() as u32;
             let passangers_entering =
