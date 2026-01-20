@@ -18,12 +18,14 @@ pub struct SimuStopPoint {
 pub struct Attractivness {
     pub start_hour: u32,
     pub end_hour: u32,
-    pub att: f32,
+    pub att_e: f32,
+    pub att_l: f32,
 }
 #[derive(Default, Clone, serde_derive::Deserialize, serde_derive::Serialize)]
 pub struct SimuStation {
     pub staid: StaId,
-    pub atract: Option<Vec<Attractivness>>,
+    pub atract_e: Option<Vec<Attractivness>>,
+    pub atract_l: Option<Vec<Attractivness>>,
 }
 #[derive(Default, Clone, serde_derive::Deserialize, serde_derive::Serialize)]
 pub struct SimulationInput {
@@ -46,21 +48,25 @@ impl Passanger {
 #[derive(Debug)]
 pub struct StationData {
     pub _id: StaId,
-    pub attractivness: [Option<f32>; 24],
+    pub attractivness_e: [Option<f32>; 24],
+    pub attractivness_l: [Option<f32>; 24],
 }
 impl From<SimuStation> for StationData {
     fn from(value: SimuStation) -> Self {
-        let mut att = [None; 24];
-        if let Some(attr) = value.atract {
+        let mut att_e = [None; 24];
+        let mut att_l = [None; 24];
+        if let Some(attr) = value.atract_e {
             for pt in attr {
                 for hr in pt.start_hour..pt.end_hour {
-                    att[hr as usize] = Some(pt.att);
+                    att_e[hr as usize] = Some(pt.att_e);
+                    att_l[hr as usize] = Some(pt.att_l);
                 }
             }
         }
         Self {
             _id: value.staid,
-            attractivness: att,
+            attractivness_e: att_e,
+            attractivness_l: att_l,
         }
     }
 }

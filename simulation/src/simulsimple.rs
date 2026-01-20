@@ -11,7 +11,7 @@ type BusLinesTable = HashMap<BusID, HashMap<StaId, Vec<Time>>>;
 type BusQueueTable = Vec<(Time, BusID, StaId)>;
 
 const MAX_PASSANGERS_IN_BUS: u32 = 65;
-const AVRG_PASSANGERS_ON_STATION: (u32, u32) = (2,10);
+const AVRG_PASSANGERS_ON_STATION: (u32, u32) = (2, 10);
 const DEBUG_PRINTS: bool = false;
 
 pub fn run_symulacja() {
@@ -82,10 +82,10 @@ pub fn run_symulacja() {
                 .collect::<Vec<_>>();
             let passangers_leaving_amount = passangers_leaving.len() as u32;
 
-            let current_att =
-                stations[id_station].attractivness[current_time.hour as usize].unwrap_or(0.5);
-            let min_passangers_enter = (AVRG_PASSANGERS_ON_STATION.0 as f32 * current_att) as u32;
-            let max_passangers_enter = (AVRG_PASSANGERS_ON_STATION.1 as f32 * current_att) as u32;
+            let current_at_e =
+                stations[id_station].attractivness_e[current_time.hour as usize].unwrap_or(0.5);
+            let min_passangers_enter = (AVRG_PASSANGERS_ON_STATION.0 as f32 * current_at_e) as u32;
+            let max_passangers_enter = (AVRG_PASSANGERS_ON_STATION.1 as f32 * current_at_e) as u32;
             let max_passangers_that_can_enter_bus =
                 MAX_PASSANGERS_IN_BUS - passangers_staying.len() as u32;
             let passangers_entering =
@@ -99,10 +99,16 @@ pub fn run_symulacja() {
                             &bus_lines,
                             &stations,
                         );
-                        let posible_stations = posible_stations.into_iter().filter(|(s,_,_)|{
-                            let ct = passangers_staying.iter().filter(|p| p.station_to_leave == **s).count();
-                            ct < 20
-                        }).collect::<Vec<_>>();
+                        let posible_stations = posible_stations
+                            .into_iter()
+                            .filter(|(s, _, _)| {
+                                let ct = passangers_staying
+                                    .iter()
+                                    .filter(|p| p.station_to_leave == **s)
+                                    .count();
+                                ct < 20
+                            })
+                            .collect::<Vec<_>>();
                         if posible_stations.is_empty() {
                             return None;
                         }
@@ -282,7 +288,7 @@ fn get_possible_future_stations<'a>(
         (
             staid,
             times,
-            stations.get(staid).unwrap().attractivness[times.hour as usize],
+            stations.get(staid).unwrap().attractivness_l[times.hour as usize],
         )
     });
     posible_stations.collect::<Vec<_>>()

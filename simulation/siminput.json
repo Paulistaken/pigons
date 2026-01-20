@@ -11,127 +11,158 @@
     "stations": [
         {
             "staid":{"id_number":1},
-            "atract": [
+            "atract_e": [
                 {"start_hour": 7, "end_hour": 9, "att": 2.1},
                 {"start_hour": 10, "end_hour": 12, "att": 0.2},
-                {"start_hour": 13, "end_hour": 15, "att": 2.1},
                 {"start_hour": 17, "end_hour": 21, "att": 0.3}
+            ],
+            "atract_l": [
+                {"start_hour": 13, "end_hour": 15, "att": 2.1}
             ]
         },
         {
             "staid":{"id_number":2},
-            "atract": null
+            "atract_e": null,
+            "atract_l": null
         },
         {
             "staid":{"id_number":3},
-            "atract": null
+            "atract_e": null,
+            "atract_l": null
         },
         {
             "staid":{"id_number":4},
-            "atract": [
+            "atract_e": [
                 {"start_hour": 7, "end_hour": 9, "att": 3.5},
-                {"start_hour": 10, "end_hour": 12, "att": 0.2},
-                {"start_hour": 13, "end_hour": 15, "att": 3.5},
-                {"start_hour": 17, "end_hour": 21, "att": 0.3}
+                {"start_hour": 10, "end_hour": 18, "att": 0.2}
+            ],
+            "atract_l": [
+                {"start_hour": 13, "end_hour": 18, "att": 3.5},
+                {"start_hour": 19, "end_hour": 21, "att": 0.3}
             ]
         },
         {
             "staid":{"id_number":5},
-            "atract": null
+            "atract_e": null,
+            "atract_l": null
         },
         {
             "staid":{"id_number":6},
-            "atract": null
+            "atract_e": null,
+            "atract_l": null
         },
         {
             "staid":{"id_number":7},
-            "atract": [
+            "atract_e": [
                 {"start_hour": 7, "end_hour": 9, "att": 2.1},
                 {"start_hour": 10, "end_hour": 12, "att": 0.2},
-                {"start_hour": 13, "end_hour": 15, "att": 2.1},
                 {"start_hour": 17, "end_hour": 21, "att": 0.3}
+            ],
+            "atract_l": [
+                {"start_hour": 13, "end_hour": 15, "att": 2.1}
             ]
         },
         {
             "staid":{"id_number":8},
-            "atract": null
+            "atract_e": null,
+            "atract_l": null
         },
         {
             "staid":{"id_number":9},
-            "atract": null
+            "atract_e": null,
+            "atract_l": null
         },
         {
             "staid":{"id_number":10},
-            "atract": null
+            "atract_e": null,
+            "atract_l": null
         },
         {
             "staid":{"id_number":11},
-            "atract": null
+            "atract_e": null,
+            "atract_l": null
         },
         {
             "staid":{"id_number":12},
-            "atract": [
-                {"start_hour": 6, "end_hour": 23, "att": 3.7}
+            "atract_e": [
+                {"start_hour": 6, "end_hour": 23, "att": 3.5}
+            ],
+            "atract_l": [
+                {"start_hour": 6, "end_hour": 23, "att": 3.5}
             ]
         },
         {
             "staid":{"id_number":13},
-            "atract": [
-                {"start_hour": 7, "end_hour": 8, "att": 1.8},
-                {"start_hour": 9, "end_hour": 10, "att": 3.1},
-                {"start_hour": 12, "end_hour": 14, "att": 0.3},
-                {"start_hour": 16, "end_hour": 18, "att": 2.3}
+            "atract_e": [
+                {"start_hour": 7, "end_hour": 9, "att": 3.5},
+                {"start_hour": 10, "end_hour": 18, "att": 0.2}
+            ],
+            "atract_l": [
+                {"start_hour": 13, "end_hour": 18, "att": 3.5},
+                {"start_hour": 19, "end_hour": 21, "att": 0.3}
             ]
         },
         {
             "staid":{"id_number":14},
-            "atract": null
+            "atract_e": null,
+            "atract_l": null
         },
         {
             "staid":{"id_number":15},
-            "atract": null
+            "atract_e": null,
+            "atract_l": null
         },
         {
             "staid":{"id_number":16},
-            "atract": null
+            "atract_e": null,
+            "atract_l": null
         },
         {
             "staid":{"id_number":17},
-            "atract": null
+            "atract_e": null,
+            "atract_l": null
         },
         {
             "staid":{"id_number":18},
-            "atract": [
-                {"start_hour": 7, "end_hour": 8, "att": 1.8},
-                {"start_hour": 9, "end_hour": 10, "att": 3.1},
-                {"start_hour": 12, "end_hour": 14, "att": 0.3},
-                {"start_hour": 16, "end_hour": 18, "att": 2.3}
+            "atract_e": [
+                {"start_hour": 7, "end_hour": 9, "att": 3.5},
+                {"start_hour": 10, "end_hour": 18, "att": 0.2}
+            ],
+            "atract_l": [
+                {"start_hour": 13, "end_hour": 18, "att": 3.5},
+                {"start_hour": 19, "end_hour": 21, "att": 0.3}
             ]
         },
         {
             "staid":{"id_number":19},
-            "atract": [
-                {"start_hour": 7, "end_hour": 8, "att": 1.8},
-                {"start_hour": 9, "end_hour": 10, "att": 3.1},
-                {"start_hour": 12, "end_hour": 14, "att": 0.3},
-                {"start_hour": 16, "end_hour": 18, "att": 2.3}
+            "atract_e": [
+                {"start_hour": 7, "end_hour": 9, "att": 3.5},
+                {"start_hour": 10, "end_hour": 18, "att": 0.2}
+            ],
+            "atract_l": [
+                {"start_hour": 13, "end_hour": 18, "att": 3.5},
+                {"start_hour": 19, "end_hour": 21, "att": 0.3}
             ]
         },
         {
             "staid":{"id_number":20},
-            "atract": null
+            "atract_e": null,
+            "atract_l": null
         },
         {
             "staid":{"id_number":21},
-            "atract": null
+            "atract_e": null,
+            "atract_l": null
         },
         {
             "staid":{"id_number":22},
-            "atract": [
-                {"start_hour": 7, "end_hour": 8, "att": 1.8},
-                {"start_hour": 9, "end_hour": 10, "att": 3.1},
-                {"start_hour": 12, "end_hour": 14, "att": 0.3},
-                {"start_hour": 16, "end_hour": 18, "att": 2.3}
+            "atract_e": [
+                {"start_hour": 7, "end_hour": 9, "att": 3.5},
+                {"start_hour": 10, "end_hour": 18, "att": 0.2}
+            ],
+            "atract_l": [
+                {"start_hour": 13, "end_hour": 18, "att": 3.5},
+                {"start_hour": 19, "end_hour": 21, "att": 0.3}
             ]
         }
     ],
