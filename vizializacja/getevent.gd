@@ -33,11 +33,26 @@ func get_event(path : String) -> DataOutput:
 	return dataout
 
 var datain : DataOutput
+var cpath = ""
+var events : Array[String]
 
 func _init() -> void:
-	var data = get_event("../simulation/simresults/pre/json/BusEVENTy2026m2d4h14m11b6s12.json")
-	datain = data
-	print(data)
+	var events_folder = DirAccess.open("../simulation/simresults/pre/json/")
+	events_folder.list_dir_begin()
+	var flpath = events_folder.get_next()
+	print(flpath)
+	while flpath != "":
+		print(flpath)
+		if events_folder.current_is_dir():
+			flpath = events_folder.get_next()
+			continue
+		events.append("../simulation/simresults/pre/json/"+flpath)
+		flpath = events_folder.get_next()
+	events_folder.list_dir_end()
+	if not events.is_empty():
+		cpath = events.pop_back()
+		datain = get_event(cpath)
+		print(datain)
 	
 var frame_a = 0.
 var frame_c = 0.
@@ -48,10 +63,10 @@ func _process(delta: float) -> void:
 		frame_c += 1.
 		frame_a = frame_c
 		var img = get_viewport().get_texture().get_image()
-		var path = "vid/e"+str(int(frame_c))+".png"
+		var path = "b"+str(datain.bus)+"s"+str(datain.station)+"vid/e"+str(int(frame_c))+".png"
 		img.save_png(path)
 
-
+var freetiks = 10
 func _on_spawntimer_timeout() -> void:
 	bus_label.text = str(datain.bus)
 	print(datain.p_in)
@@ -67,3 +82,12 @@ func _on_spawntimer_timeout() -> void:
 		var obj = human_node_in.instantiate()
 		obj.position = spawn_node_in.position
 		add_child(obj)
+		return
+	if freetiks > 0:
+		freetiks -= 1
+		return
+	freetiks = 10
+	if not events.is_empty():
+		cpath = events.pop_back()
+		datain = get_event(cpath)
+		print(datain)
