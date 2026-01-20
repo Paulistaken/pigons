@@ -18,8 +18,7 @@ pub struct SimuStopPoint {
 pub struct Attractivness {
     pub start_hour: u32,
     pub end_hour: u32,
-    pub att_e: f32,
-    pub att_l: f32,
+    pub att: f32,
 }
 #[derive(Default, Clone, serde_derive::Deserialize, serde_derive::Serialize)]
 pub struct SimuStation {
@@ -58,8 +57,14 @@ impl From<SimuStation> for StationData {
         if let Some(attr) = value.atract_e {
             for pt in attr {
                 for hr in pt.start_hour..pt.end_hour {
-                    att_e[hr as usize] = Some(pt.att_e);
-                    att_l[hr as usize] = Some(pt.att_l);
+                    att_e[hr as usize] = Some(pt.att);
+                }
+            }
+        }
+        if let Some(attr) = value.atract_l {
+            for pt in attr {
+                for hr in pt.start_hour..pt.end_hour {
+                    att_l[hr as usize] = Some(pt.att);
                 }
             }
         }

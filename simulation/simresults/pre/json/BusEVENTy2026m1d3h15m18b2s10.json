@@ -1,1 +1,1 @@
-{"date_of_event":{"year":2026,"month":1,"day":3},"time_of_event":{"hour":15,"minute":18},"id_of_the_bus":{"id_number":2},"id_of_the_station":{"id_number":10},"pasangers_coming_in":5,"pasangers_coming_out":8,"previous_stations":[],"next_stations":[]}
+{"date_of_event":{"year":2026,"month":1,"day":3},"time_of_event":{"hour":15,"minute":18},"id_of_the_bus":{"id_number":2},"id_of_the_station":{"id_number":10},"pasangers_coming_in":5,"pasangers_coming_out":6,"previous_stations":[],"next_stations":[]}
