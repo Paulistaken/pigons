@@ -8,161 +8,190 @@
         "month":12,
         "day":12
     },
+    "end_date":{
+        "year":2026,
+        "month":4,
+        "day":3
+    },
     "stations": [
         {
             "staid":{"id_number":1},
-            "atract_l": [
-                {"start_hour": 7, "end_hour": 9, "att": 2.1},
-                {"start_hour": 10, "end_hour": 12, "att": 0.2},
-                {"start_hour": 14, "end_hour": 21, "att": 0.3}
+            "leaving_attractivness": [
+                {"start_hour": 7, "end_hour": 9, "level": 5.1},
+                {"start_hour": 13, "end_hour": 15, "level": 0.3}
             ],
-            "atract_e": [
-                {"start_hour": 13, "end_hour": 15, "att": 2.1}
+            "entering_attractivness": [
+                {"start_hour": 7, "end_hour": 9, "level": 0.3},
+                {"start_hour": 13, "end_hour": 15, "level": 3.1}
             ]
         },
         {
             "staid":{"id_number":2},
-            "atract_l": null,
-            "atract_e": null
+            "leaving_attractivness": null,
+            "entering_attractivness": [
+                {"start_hour": 6, "end_hour": 8, "level": 2.1}
+            ]
         },
         {
             "staid":{"id_number":3},
-            "atract_l": null,
-            "atract_e": null
+            "leaving_attractivness": null,
+            "entering_attractivness": [
+                {"start_hour": 6, "end_hour": 8, "level": 2.1}
+            ]
         },
         {
             "staid":{"id_number":4},
-            "atract_l": [
-                {"start_hour": 7, "end_hour": 9, "att": 3.5},
-                {"start_hour": 10, "end_hour": 18, "att": 0.2}
+            "leaving_attractivness": [
+                {"start_hour": 7, "end_hour": 9, "level": 3.1},
+                {"start_hour": 13, "end_hour": 15, "level": 0.3}
             ],
-            "atract_e": [
-                {"start_hour": 13, "end_hour": 18, "att": 3.5},
-                {"start_hour": 19, "end_hour": 21, "att": 0.3}
+            "entering_attractivness": [
+                {"start_hour": 7, "end_hour": 9, "level": 0.4},
+                {"start_hour": 13, "end_hour": 15, "level": 3.1}
             ]
         },
         {
             "staid":{"id_number":5},
-            "atract_l": null,
-            "atract_e": null
+            "leaving_attractivness": null,
+            "entering_attractivness": [
+                {"start_hour": 6, "end_hour": 8, "level": 2.1}
+            ]
         },
         {
             "staid":{"id_number":6},
-            "atract_l": null,
-            "atract_e": null
+            "leaving_attractivness": null,
+            "entering_attractivness": [
+                {"start_hour": 6, "end_hour": 8, "level": 2.1}
+            ]
         },
         {
             "staid":{"id_number":7},
-            "atract_l": [
-                {"start_hour": 7, "end_hour": 9, "att": 2.1},
-                {"start_hour": 10, "end_hour": 12, "att": 0.2},
-                {"start_hour": 17, "end_hour": 21, "att": 0.3}
+            "leaving_attractivness": [
+                {"start_hour": 7, "end_hour": 9, "level": 5.1},
+                {"start_hour": 13, "end_hour": 15, "level": 0.3}
             ],
-            "atract_e": [
-                {"start_hour": 13, "end_hour": 15, "att": 2.1}
+            "entering_attractivness": [
+                {"start_hour": 7, "end_hour": 9, "level": 0.4},
+                {"start_hour": 13, "end_hour": 15, "level": 3.1}
             ]
         },
         {
             "staid":{"id_number":8},
-            "atract_l": null,
-            "atract_e": null
+            "leaving_attractivness": null,
+            "entering_attractivness": [
+                {"start_hour": 6, "end_hour": 8, "level": 2.1}
+            ]
         },
         {
             "staid":{"id_number":9},
-            "atract_l": null,
-            "atract_e": null
+            "leaving_attractivness": null,
+            "entering_attractivness": [
+                {"start_hour": 6, "end_hour": 8, "level": 2.1}
+            ]
         },
         {
             "staid":{"id_number":10},
-            "atract_l": null,
-            "atract_e": null
+            "leaving_attractivness": null,
+            "entering_attractivness": [
+                {"start_hour": 6, "end_hour": 8, "level": 2.1}
+            ]
         },
         {
             "staid":{"id_number":11},
-            "atract_l": null,
-            "atract_e": null
+            "leaving_attractivness": null,
+            "entering_attractivness": [
+                {"start_hour": 6, "end_hour": 8, "level": 2.1}
+            ]
         },
         {
             "staid":{"id_number":12},
-            "atract_l": [
-                {"start_hour": 6, "end_hour": 23, "att": 3.5}
+            "leaving_attractivness": [
+                {"start_hour": 6, "end_hour": 23, "level": 3.5}
             ],
-            "atract_e": [
-                {"start_hour": 6, "end_hour": 23, "att": 3.5}
+            "entering_attractivness": [
+                {"start_hour": 6, "end_hour": 23, "level": 3.5}
             ]
         },
         {
             "staid":{"id_number":13},
-            "atract_l": [
-                {"start_hour": 7, "end_hour": 9, "att": 3.5},
-                {"start_hour": 10, "end_hour": 18, "att": 0.2}
+            "leaving_attractivness": [
+                {"start_hour": 7, "end_hour": 9, "level": 5.1},
+                {"start_hour": 13, "end_hour": 15, "level": 0.3}
             ],
-            "atract_e": [
-                {"start_hour": 13, "end_hour": 18, "att": 3.5},
-                {"start_hour": 19, "end_hour": 21, "att": 0.3}
+            "entering_attractivness": [
+                {"start_hour": 7, "end_hour": 9, "level": 0.4},
+                {"start_hour": 13, "end_hour": 15, "level": 3.1}
             ]
         },
         {
             "staid":{"id_number":14},
-            "atract_l": null,
-            "atract_e": null
+            "leaving_attractivness": null,
+            "entering_attractivness": [
+                {"start_hour": 6, "end_hour": 8, "level": 2.1}
+            ]
         },
         {
             "staid":{"id_number":15},
-            "atract_l": null,
-            "atract_e": null
+            "leaving_attractivness": null,
+            "entering_attractivness": [
+                {"start_hour": 6, "end_hour": 8, "level": 2.1}
+            ]
         },
         {
             "staid":{"id_number":16},
-            "atract_l": null,
-            "atract_e": null
+            "leaving_attractivness": null,
+            "entering_attractivness": [
+                {"start_hour": 6, "end_hour": 8, "level": 2.1}
+            ]
         },
         {
             "staid":{"id_number":17},
-            "atract_l": null,
-            "atract_e": null
+            "leaving_attractivness": null,
+            "entering_attractivness": [
+                {"start_hour": 6, "end_hour": 8, "level": 2.1}
+            ]
         },
         {
             "staid":{"id_number":18},
-            "atract_l": [
-                {"start_hour": 7, "end_hour": 9, "att": 3.5},
-                {"start_hour": 10, "end_hour": 18, "att": 0.2}
+            "leaving_attractivness": [
+                {"start_hour": 7, "end_hour": 9, "level": 5.1},
+                {"start_hour": 13, "end_hour": 15, "level": 0.3}
             ],
-            "atract_e": [
-                {"start_hour": 13, "end_hour": 18, "att": 3.5},
-                {"start_hour": 19, "end_hour": 21, "att": 0.3}
+            "entering_attractivness": [
+                {"start_hour": 7, "end_hour": 9, "level": 0.4},
+                {"start_hour": 13, "end_hour": 15, "level": 3.1}
             ]
         },
         {
             "staid":{"id_number":19},
-            "atract_l": [
-                {"start_hour": 7, "end_hour": 9, "att": 3.5},
-                {"start_hour": 10, "end_hour": 18, "att": 0.2}
+            "leaving_attractivness": [
+                {"start_hour": 7, "end_hour": 9, "level": 5.1},
+                {"start_hour": 13, "end_hour": 15, "level": 0.3}
             ],
-            "atract_e": [
-                {"start_hour": 13, "end_hour": 18, "att": 3.5},
-                {"start_hour": 19, "end_hour": 21, "att": 0.3}
+            "entering_attractivness": [
+                {"start_hour": 7, "end_hour": 9, "level": 0.4},
+                {"start_hour": 13, "end_hour": 15, "level": 3.1}
             ]
         },
         {
             "staid":{"id_number":20},
-            "atract_l": null,
-            "atract_e": null
+            "leaving_attractivness": null,
+            "entering_attractivness": null
         },
         {
             "staid":{"id_number":21},
-            "atract_l": null,
-            "atract_e": null
+            "leaving_attractivness": null,
+            "entering_attractivness": null
         },
         {
             "staid":{"id_number":22},
-            "atract_l": [
-                {"start_hour": 7, "end_hour": 9, "att": 3.5},
-                {"start_hour": 10, "end_hour": 18, "att": 0.2}
+            "leaving_attractivness": [
+                {"start_hour": 7, "end_hour": 9, "level": 5.1},
+                {"start_hour": 13, "end_hour": 15, "level": 0.3}
             ],
-            "atract_e": [
-                {"start_hour": 13, "end_hour": 18, "att": 3.5},
-                {"start_hour": 19, "end_hour": 21, "att": 0.3}
+            "entering_attractivness": [
+                {"start_hour": 7, "end_hour": 9, "level": 0.4},
+                {"start_hour": 13, "end_hour": 15, "level": 3.1}
             ]
         }
     ],
