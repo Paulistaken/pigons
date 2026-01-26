@@ -4,7 +4,7 @@ use rand::distr::StandardUniform;
 
 use crate::dane_out::{BusId as BusID, Date, StationId as StaId, Time};
 use crate::simplestucts::Passanger;
-use crate::simulsimple::PassangersInBusList;
+use crate::simulsimple::PassangersInBusTable;
 pub fn select_posible_stations(
     posible_stations: Vec<(StaId, Time, f32)>,
     people_leaving_at_station: &HashMap<StaId, u32>,
@@ -41,7 +41,7 @@ pub fn select_station_to_leave(
 pub fn get_passangers_leaving_amount_staying(
     id_bus: &BusID,
     id_station: &StaId,
-    passangers_in_bus: &PassangersInBusList,
+    passangers_in_bus: &PassangersInBusTable,
 ) -> (u32, Vec<Passanger>) {
     if let Some(data) = passangers_in_bus.get(id_bus) {
         let passangers_in_bus = data.len();

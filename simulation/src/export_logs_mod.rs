@@ -9,7 +9,7 @@ const CSV_LOGS_PATH: &str = "simresults/pre/csv";
 const JSON_LOGS_PATH: &str = "simresults/pre/json";
 const BUS_LOGS_PATH: &str = "simresults/pre/bus_logs";
 
-pub fn setup_paths() {
+pub fn setup_export_log_paths() {
     {
         let _ = std::fs::remove_dir_all(LOGS_PATH);
         let _ = std::fs::create_dir_all(CSV_LOGS_PATH);
@@ -56,11 +56,20 @@ pub fn export_logs(export_logs: &[(String, BusEvent)]) {
         let serialized_csv = export_data.export_tdf();
         let serialized_csv = serialized_csv.0 + "\n" + &serialized_csv.1;
         let serialized_json = serde_json::to_string(&export_data).unwrap_or("".to_string());
-        let pathcsv = CSV_LOGS_PATH.to_string() + "./BusEVENT" + export_path + ".csv";
+        let pathcsv = CSV_LOGS_PATH.to_string() + "/BusEVENT" + export_path + ".csv";
         let pathjson = JSON_LOGS_PATH.to_string() + "/BusEVENT" + export_path + ".json";
         let _ = fs::write(&pathcsv, &serialized_csv);
         let _ = fs::write(&pathjson, &serialized_json);
     }
+    println!("Exporting full event logs");
+    let mut csv_content = export_logs[0].1.export_tdf().0 + "\n";
+    for (_, export_data) in export_logs {
+        let serialized_csv = export_data.export_tdf();
+        csv_content += &serialized_csv.1;
+        csv_content += "\n";
+    }
+    let path = LOGS_PATH.to_string() + "FullExportPath.csv";
+    let _ = fs::write(&path, &csv_content);
 }
 pub fn export_bus_line_logs(
     simulinput: &SimulationInput,

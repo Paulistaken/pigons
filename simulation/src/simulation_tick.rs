@@ -1,10 +1,10 @@
 use crate::dane_out::{BusId as BusID, Date, StationId as StaId, Time};
-use crate::simulsimple::BusQueueTable;
+use crate::simulsimple::BusQueue;
 
 pub fn tick_next_day(
     mut simulation_date: Date,
-    bus_queue: &BusQueueTable,
-) -> (Time, Date, BusQueueTable) {
+    bus_queue: &BusQueue,
+) -> (Time, Date, BusQueue) {
     simulation_date.next_day();
     (
         Time { hour: 0, minute: 0 },
@@ -14,8 +14,8 @@ pub fn tick_next_day(
 }
 pub fn get_today_bus_quere(
     simulation_time: &Time,
-    today_bus_queue: BusQueueTable,
-) -> BusQueueTable {
+    today_bus_queue: BusQueue,
+) -> BusQueue {
     today_bus_queue
         .into_iter()
         .filter(|(t, _, _)| *t >= *simulation_time)
@@ -23,7 +23,7 @@ pub fn get_today_bus_quere(
 }
 pub fn get_next_event_time<'a>(
     simulation_time: &'a Time,
-    today_bus_queue: &'a BusQueueTable,
+    today_bus_queue: &'a BusQueue,
 ) -> Option<Time> {
     today_bus_queue
         .iter()
@@ -32,7 +32,7 @@ pub fn get_next_event_time<'a>(
 }
 pub fn get_events_to_simulate<'a>(
     simulation_time: &'a Time,
-    today_bus_queue: &'a BusQueueTable,
+    today_bus_queue: &'a BusQueue,
 ) -> Vec<(Time, BusID, StaId)> {
     today_bus_queue
         .iter()

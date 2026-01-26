@@ -1,13 +1,13 @@
 
 use crate::simplestucts::SimulationInput;
 use crate::simulsimple::BusLinesTable;
-use crate::simulsimple::BusQueueTable;
+use crate::simulsimple::BusQueue;
 use crate::simulsimple::StationDataTable;
-pub fn load_table_data(
+pub fn load_simulation_input_data(
     simulinput: &mut SimulationInput,
     stations: &mut StationDataTable,
     bus_lines: &mut BusLinesTable,
-    bus_queue: &mut BusQueueTable,
+    bus_queue: &mut BusQueue,
 ) {
     for stationdata in simulinput.stations.iter() {
         stations.insert_station_data(stationdata.clone().into());
@@ -24,7 +24,7 @@ pub fn load_table_data(
     }
     bus_queue.sort_by(|(t1, _, _), (t2, _, _)| t1.cmp(t2));
 }
-pub fn update_busy(simulinput: &mut SimulationInput) {
+pub fn update_bus_lines(simulinput: &mut SimulationInput) {
     for busp in simulinput.bus_plans.iter_mut() {
         let mut bbs = busp.points.clone();
         for i in 7..=23 {
