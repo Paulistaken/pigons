@@ -1,8 +1,6 @@
 use std::collections::HashMap;
 
-use rand::distr::StandardUniform;
-
-use crate::dane_out::{BusId as BusID, Date, StationId as StaId, Time};
+use crate::dane_out::{BusId as BusID, StationId as StaId, Time};
 use crate::simplestucts::Passanger;
 use crate::simulsimple::PassangersInBusTable;
 pub fn select_posible_stations(
@@ -30,6 +28,7 @@ pub fn select_station_to_leave(
     for (staid, _, at) in stations.iter() {
         p += at;
         if p >= rand {
+            *passangers_leaving_at_station.entry(*staid).or_insert(0) += 1;
             return *staid;
         }
     }
